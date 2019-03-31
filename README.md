@@ -34,11 +34,16 @@ I ukoliko nije vec ubaceno potrebno je self.saveContext() ubaciti u applicationW
 
 SADRZAJ:
      Entity relationships (slike), JSON (AppDelegate.uploadSampleData() - 96)
+    
      Visestruko uklanjanje podataka (AppDelegate.deleteRecords() - 187)
+     
      Records Searching (Home+CoreDataClass.getHomesByStatus - 23)
+     
      Fetch One To Many (SaleHistory+CoreDataClass.getSoldHistory - 16)
+     
      Sort Descriptor & Compound Predicate (FilterTableViewController - didSelectRowAt (57), setSortDescriptor(78),    setFilterSearchPredicate(82) | HomeListViewController - loadData(81-94), -prepare(119-120), extension HomeListViewController)
      Agregatne f-je: sum, count, min, max (Home+CoreDataClass.getTotalHomeSales - 50, Home+CoreDataClass.getNumberCondoSold - 71, Home+CoreDataClass.getNumberSingleFamilyHomeSold - 89, Home+CoreDataClass.getHomePriceSold - 107, Home+CoreDataClass.getAverageHomePrice - 129)
+     
      Async request (Home+CoreDataClass.getHomesByStatus(19, 23) | HomeListViewController.loadDara(101))
 
 atribut koji treba da bude slika
@@ -62,7 +67,11 @@ podesavanje izvora entiteta
 ## 03 NS Fetch Results Controller
 
 SADRZAJ:
-    TableView with Fetch Result Controller - MovieTableViewController.numberOfSections(26), numberOfRowsInSection(33),      cellForRowAt(45), loadData(82) + extension
+    
+     TableView with Fetch Result Controller - MovieTableViewController.numberOfSections(26), numberOfRowsInSection(33),      cellForRowAt(45), loadData(82) + extension
+    
      Delete Record - MovieTableViewController.editingStyle(88), extension(144,145)
+     
      Batch Update - MovieTableViewController.updateRatingAction(51), extension(154)
+     
      Results Grouping and Cashing - MovieService.swift
