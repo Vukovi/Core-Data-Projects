@@ -1,0 +1,891 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BF06AEC1D7AAAD9002040E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF06AEB1D7AAAD9002040E8 /* AppDelegate.swift */; };
+		7BF06AF11D7AAAD9002040E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06AEF1D7AAAD9002040E8 /* Main.storyboard */; };
+		7BF06AF41D7AAAD9002040E8 /* Car_Inventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BF06AF21D7AAAD9002040E8 /* Car_Inventory.xcdatamodeld */; };
+		7BF06AF61D7AAAD9002040E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06AF51D7AAAD9002040E8 /* Assets.xcassets */; };
+		7BF06AF91D7AAAD9002040E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06AF71D7AAAD9002040E8 /* LaunchScreen.storyboard */; };
+		7BF06BB41D7AADD0002040E8 /* ReportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF06BB31D7AADD0002040E8 /* ReportTableViewController.swift */; };
+		7BF06BB61D7AADFF002040E8 /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF06BB51D7AADFF002040E8 /* CarDetailViewController.swift */; };
+		7BF06BB81D7AAE32002040E8 /* InventoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF06BB71D7AAE32002040E8 /* InventoryCollectionViewController.swift */; };
+		7BF06BBA1D7AAE45002040E8 /* InventoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF06BB91D7AAE45002040E8 /* InventoryCollectionViewCell.swift */; };
+		7BF06BBD1D7AAE65002040E8 /* CarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF06BBC1D7AAE65002040E8 /* CarService.swift */; };
+		7BF06C181D7AB023002040E8 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF06BBE1D7AB023002040E8 /* CoreDataStack.swift */; };
+		7BF06C191D7AB023002040E8 /* 2014AcuraILX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BC01D7AB023002040E8 /* 2014AcuraILX.jpg */; };
+		7BF06C1A1D7AB023002040E8 /* 2014AudiA4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BC11D7AB023002040E8 /* 2014AudiA4.jpg */; };
+		7BF06C1B1D7AB023002040E8 /* 2014AudiA5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BC21D7AB023002040E8 /* 2014AudiA5.jpg */; };
+		7BF06C1C1D7AB023002040E8 /* 2014AudiA6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BC31D7AB023002040E8 /* 2014AudiA6.jpg */; };
+		7BF06C1D1D7AB023002040E8 /* 2014AudiA7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BC41D7AB023002040E8 /* 2014AudiA7.jpg */; };
+		7BF06C1E1D7AB023002040E8 /* 2014AudiA8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BC51D7AB023002040E8 /* 2014AudiA8.jpg */; };
+		7BF06C1F1D7AB023002040E8 /* 2014AudiQ5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BC61D7AB023002040E8 /* 2014AudiQ5.jpg */; };
+		7BF06C201D7AB023002040E8 /* 2014AudiQ7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BC71D7AB023002040E8 /* 2014AudiQ7.jpg */; };
+		7BF06C211D7AB023002040E8 /* 2014AudiR8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BC81D7AB023002040E8 /* 2014AudiR8.jpg */; };
+		7BF06C221D7AB023002040E8 /* 2014AudiS4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BC91D7AB023002040E8 /* 2014AudiS4.jpg */; };
+		7BF06C231D7AB023002040E8 /* 2014AudiS5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BCA1D7AB023002040E8 /* 2014AudiS5.jpg */; };
+		7BF06C241D7AB023002040E8 /* 2014AudiS6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BCB1D7AB023002040E8 /* 2014AudiS6.jpg */; };
+		7BF06C251D7AB023002040E8 /* 2014AudiS7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BCC1D7AB023002040E8 /* 2014AudiS7.jpg */; };
+		7BF06C261D7AB023002040E8 /* 2014BuickEnclave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BCD1D7AB023002040E8 /* 2014BuickEnclave.jpg */; };
+		7BF06C271D7AB023002040E8 /* 2014BuickLacrosse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BCE1D7AB023002040E8 /* 2014BuickLacrosse.jpg */; };
+		7BF06C281D7AB023002040E8 /* 2014CadillacATS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BCF1D7AB023002040E8 /* 2014CadillacATS.jpg */; };
+		7BF06C291D7AB023002040E8 /* 2014CadillacCTS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BD01D7AB023002040E8 /* 2014CadillacCTS.jpg */; };
+		7BF06C2A1D7AB023002040E8 /* 2014CadillacSRX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BD11D7AB023002040E8 /* 2014CadillacSRX.jpg */; };
+		7BF06C2B1D7AB023002040E8 /* 2014CadillacXTS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BD21D7AB023002040E8 /* 2014CadillacXTS.jpg */; };
+		7BF06C2C1D7AB023002040E8 /* 2014ChevroletCruze.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BD31D7AB023002040E8 /* 2014ChevroletCruze.jpg */; };
+		7BF06C2D1D7AB023002040E8 /* 2014ChevroletEquinox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BD41D7AB023002040E8 /* 2014ChevroletEquinox.jpg */; };
+		7BF06C2E1D7AB023002040E8 /* 2014ChevroletTahoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BD51D7AB023002040E8 /* 2014ChevroletTahoe.jpg */; };
+		7BF06C2F1D7AB023002040E8 /* 2014ChevroletTraverse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BD61D7AB023002040E8 /* 2014ChevroletTraverse.jpg */; };
+		7BF06C301D7AB023002040E8 /* 2014ChevroletVolt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BD71D7AB023002040E8 /* 2014ChevroletVolt.jpg */; };
+		7BF06C311D7AB023002040E8 /* 2014Chrysler300.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BD81D7AB023002040E8 /* 2014Chrysler300.jpg */; };
+		7BF06C321D7AB023002040E8 /* 2014DodgeChallenger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BD91D7AB023002040E8 /* 2014DodgeChallenger.jpg */; };
+		7BF06C331D7AB023002040E8 /* 2014DodgeJourney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BDA1D7AB023002040E8 /* 2014DodgeJourney.jpg */; };
+		7BF06C341D7AB023002040E8 /* 2014FordEdge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BDB1D7AB023002040E8 /* 2014FordEdge.jpg */; };
+		7BF06C351D7AB023002040E8 /* 2014FordEscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BDC1D7AB023002040E8 /* 2014FordEscape.jpg */; };
+		7BF06C361D7AB023002040E8 /* 2014FordFiesta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BDD1D7AB023002040E8 /* 2014FordFiesta.jpg */; };
+		7BF06C371D7AB023002040E8 /* 2014FordFocus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BDE1D7AB023002040E8 /* 2014FordFocus.jpg */; };
+		7BF06C381D7AB023002040E8 /* 2014FordFusion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BDF1D7AB023002040E8 /* 2014FordFusion.jpg */; };
+		7BF06C391D7AB023002040E8 /* 2014HondaCivic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BE01D7AB023002040E8 /* 2014HondaCivic.jpg */; };
+		7BF06C3A1D7AB023002040E8 /* 2014HondaCrosstour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BE11D7AB023002040E8 /* 2014HondaCrosstour.jpg */; };
+		7BF06C3B1D7AB023002040E8 /* 2014HondaCRV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BE21D7AB023002040E8 /* 2014HondaCRV.jpg */; };
+		7BF06C3C1D7AB023002040E8 /* 2014HondaOdyssey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BE31D7AB023002040E8 /* 2014HondaOdyssey.jpg */; };
+		7BF06C3D1D7AB023002040E8 /* 2014HondaPilot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BE41D7AB023002040E8 /* 2014HondaPilot.jpg */; };
+		7BF06C3E1D7AB023002040E8 /* 2014HondaRidgeline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BE51D7AB023002040E8 /* 2014HondaRidgeline.jpg */; };
+		7BF06C3F1D7AB023002040E8 /* 2014HyundaiAccent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BE61D7AB023002040E8 /* 2014HyundaiAccent.jpg */; };
+		7BF06C401D7AB023002040E8 /* 2014HyundaiAzera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BE71D7AB023002040E8 /* 2014HyundaiAzera.jpg */; };
+		7BF06C411D7AB023002040E8 /* 2014HyundaiEquus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BE81D7AB023002040E8 /* 2014HyundaiEquus.jpg */; };
+		7BF06C421D7AB023002040E8 /* 2014HyundaiGenesis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BE91D7AB023002040E8 /* 2014HyundaiGenesis.jpg */; };
+		7BF06C431D7AB023002040E8 /* 2014HyundaiSantafe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BEA1D7AB023002040E8 /* 2014HyundaiSantafe.jpg */; };
+		7BF06C441D7AB023002040E8 /* 2015AcuraILX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BEB1D7AB023002040E8 /* 2015AcuraILX.jpg */; };
+		7BF06C451D7AB023002040E8 /* 2015AudiA3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BEC1D7AB023002040E8 /* 2015AudiA3.jpg */; };
+		7BF06C461D7AB023002040E8 /* 2015AudiA5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BED1D7AB023002040E8 /* 2015AudiA5.jpg */; };
+		7BF06C471D7AB023002040E8 /* 2015AudiA6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BEE1D7AB023002040E8 /* 2015AudiA6.jpg */; };
+		7BF06C481D7AB023002040E8 /* 2015AudiA7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BEF1D7AB023002040E8 /* 2015AudiA7.jpg */; };
+		7BF06C491D7AB023002040E8 /* 2015AudiA8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BF01D7AB023002040E8 /* 2015AudiA8.jpg */; };
+		7BF06C4A1D7AB023002040E8 /* 2015AudiQ3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BF11D7AB023002040E8 /* 2015AudiQ3.jpg */; };
+		7BF06C4B1D7AB023002040E8 /* 2015AudiQ5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BF21D7AB023002040E8 /* 2015AudiQ5.jpg */; };
+		7BF06C4C1D7AB023002040E8 /* 2015AudiQ7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BF31D7AB023002040E8 /* 2015AudiQ7.jpg */; };
+		7BF06C4D1D7AB023002040E8 /* 2015AudiR8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BF41D7AB023002040E8 /* 2015AudiR8.jpg */; };
+		7BF06C4E1D7AB023002040E8 /* 2015AudiS4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BF51D7AB023002040E8 /* 2015AudiS4.jpg */; };
+		7BF06C4F1D7AB023002040E8 /* 2015AudiS5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BF61D7AB023002040E8 /* 2015AudiS5.jpg */; };
+		7BF06C501D7AB023002040E8 /* 2015AudiS6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BF71D7AB023002040E8 /* 2015AudiS6.jpg */; };
+		7BF06C511D7AB023002040E8 /* 2015AudiS7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BF81D7AB023002040E8 /* 2015AudiS7.jpg */; };
+		7BF06C521D7AB023002040E8 /* 2015BuickEnclave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BF91D7AB023002040E8 /* 2015BuickEnclave.jpg */; };
+		7BF06C531D7AB023002040E8 /* 2015BuickLacrosse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BFA1D7AB023002040E8 /* 2015BuickLacrosse.jpg */; };
+		7BF06C541D7AB023002040E8 /* 2015CadillacATS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BFB1D7AB023002040E8 /* 2015CadillacATS.jpg */; };
+		7BF06C551D7AB023002040E8 /* 2015CadillacCTS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BFC1D7AB023002040E8 /* 2015CadillacCTS.jpg */; };
+		7BF06C561D7AB023002040E8 /* 2015CadillacSRX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BFD1D7AB023002040E8 /* 2015CadillacSRX.jpg */; };
+		7BF06C571D7AB023002040E8 /* 2015CadillacXTS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BFE1D7AB023002040E8 /* 2015CadillacXTS.jpg */; };
+		7BF06C581D7AB023002040E8 /* 2015ChevroletColorado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06BFF1D7AB023002040E8 /* 2015ChevroletColorado.jpg */; };
+		7BF06C591D7AB023002040E8 /* 2015ChevroletCruze.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C001D7AB023002040E8 /* 2015ChevroletCruze.jpg */; };
+		7BF06C5A1D7AB023002040E8 /* 2015ChevroletEquinox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C011D7AB023002040E8 /* 2015ChevroletEquinox.jpg */; };
+		7BF06C5B1D7AB023002040E8 /* 2015ChevroletTahoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C021D7AB023002040E8 /* 2015ChevroletTahoe.jpg */; };
+		7BF06C5C1D7AB023002040E8 /* 2015ChevroletTraverse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C031D7AB023002040E8 /* 2015ChevroletTraverse.jpg */; };
+		7BF06C5D1D7AB023002040E8 /* 2015ChevroletVolt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C041D7AB023002040E8 /* 2015ChevroletVolt.jpg */; };
+		7BF06C5E1D7AB023002040E8 /* 2015Chrysler300.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C051D7AB023002040E8 /* 2015Chrysler300.jpg */; };
+		7BF06C5F1D7AB023002040E8 /* 2015DodgeChallenger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C061D7AB023002040E8 /* 2015DodgeChallenger.jpg */; };
+		7BF06C601D7AB023002040E8 /* 2015DodgeJourney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C071D7AB023002040E8 /* 2015DodgeJourney.jpg */; };
+		7BF06C611D7AB023002040E8 /* 2015DodgeViper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C081D7AB023002040E8 /* 2015DodgeViper.jpg */; };
+		7BF06C621D7AB023002040E8 /* 2015FordEdge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C091D7AB023002040E8 /* 2015FordEdge.jpg */; };
+		7BF06C631D7AB023002040E8 /* 2015FordEscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C0A1D7AB023002040E8 /* 2015FordEscape.jpg */; };
+		7BF06C641D7AB023002040E8 /* 2015FordFiesta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C0B1D7AB023002040E8 /* 2015FordFiesta.jpg */; };
+		7BF06C651D7AB023002040E8 /* 2015FordFlex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C0C1D7AB023002040E8 /* 2015FordFlex.jpg */; };
+		7BF06C661D7AB023002040E8 /* 2015FordFocus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C0D1D7AB023002040E8 /* 2015FordFocus.jpg */; };
+		7BF06C671D7AB023002040E8 /* 2015FordFusion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C0E1D7AB023002040E8 /* 2015FordFusion.jpg */; };
+		7BF06C681D7AB023002040E8 /* 2015HondaAccord.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C0F1D7AB023002040E8 /* 2015HondaAccord.jpg */; };
+		7BF06C691D7AB023002040E8 /* 2015HondaCrosstour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C101D7AB023002040E8 /* 2015HondaCrosstour.jpg */; };
+		7BF06C6A1D7AB023002040E8 /* 2015HondaCRV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C111D7AB023002040E8 /* 2015HondaCRV.jpg */; };
+		7BF06C6B1D7AB023002040E8 /* 2015HondaFit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C121D7AB023002040E8 /* 2015HondaFit.jpg */; };
+		7BF06C6C1D7AB023002040E8 /* 2015HondaOdyssey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C131D7AB023002040E8 /* 2015HondaOdyssey.jpg */; };
+		7BF06C6D1D7AB023002040E8 /* 2015HondaPilot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C141D7AB023002040E8 /* 2015HondaPilot.jpg */; };
+		7BF06C6E1D7AB023002040E8 /* 2015HyundaiSonata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C151D7AB023002040E8 /* 2015HyundaiSonata.jpg */; };
+		7BF06C6F1D7AB023002040E8 /* 2015HyundaiTucson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C161D7AB023002040E8 /* 2015HyundaiTucson.jpg */; };
+		7BF06C701D7AB023002040E8 /* 2015HyundaiVeloster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C171D7AB023002040E8 /* 2015HyundaiVeloster.jpg */; };
+		7BF06C731D7B3895002040E8 /* Double+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF06C721D7B3895002040E8 /* Double+extension.swift */; };
+		7BF06C751D7B8BEE002040E8 /* cars.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BF06C741D7B8BEE002040E8 /* cars.json */; };
+		BF08EDC3224E401A000EE433 /* Car_InventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08EDC2224E401A000EE433 /* Car_InventoryTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF08EDC5224E401A000EE433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BF06AE01D7AAAD9002040E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BF06AE71D7AAAD9002040E8;
+			remoteInfo = "Car Inventory";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BF06AE81D7AAAD9002040E8 /* Car Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Inventory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF06AEB1D7AAAD9002040E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BF06AF01D7AAAD9002040E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BF06AF31D7AAAD9002040E8 /* Car_Inventory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Car_Inventory.xcdatamodel; sourceTree = "<group>"; };
+		7BF06AF51D7AAAD9002040E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BF06AF81D7AAAD9002040E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BF06AFA1D7AAAD9002040E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF06BB31D7AADD0002040E8 /* ReportTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportTableViewController.swift; sourceTree = "<group>"; };
+		7BF06BB51D7AADFF002040E8 /* CarDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
+		7BF06BB71D7AAE32002040E8 /* InventoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryCollectionViewController.swift; sourceTree = "<group>"; };
+		7BF06BB91D7AAE45002040E8 /* InventoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		7BF06BBC1D7AAE65002040E8 /* CarService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarService.swift; sourceTree = "<group>"; };
+		7BF06BBE1D7AB023002040E8 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		7BF06BC01D7AB023002040E8 /* 2014AcuraILX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014AcuraILX.jpg; sourceTree = "<group>"; };
+		7BF06BC11D7AB023002040E8 /* 2014AudiA4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014AudiA4.jpg; sourceTree = "<group>"; };
+		7BF06BC21D7AB023002040E8 /* 2014AudiA5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014AudiA5.jpg; sourceTree = "<group>"; };
+		7BF06BC31D7AB023002040E8 /* 2014AudiA6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014AudiA6.jpg; sourceTree = "<group>"; };
+		7BF06BC41D7AB023002040E8 /* 2014AudiA7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014AudiA7.jpg; sourceTree = "<group>"; };
+		7BF06BC51D7AB023002040E8 /* 2014AudiA8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014AudiA8.jpg; sourceTree = "<group>"; };
+		7BF06BC61D7AB023002040E8 /* 2014AudiQ5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014AudiQ5.jpg; sourceTree = "<group>"; };
+		7BF06BC71D7AB023002040E8 /* 2014AudiQ7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014AudiQ7.jpg; sourceTree = "<group>"; };
+		7BF06BC81D7AB023002040E8 /* 2014AudiR8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014AudiR8.jpg; sourceTree = "<group>"; };
+		7BF06BC91D7AB023002040E8 /* 2014AudiS4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014AudiS4.jpg; sourceTree = "<group>"; };
+		7BF06BCA1D7AB023002040E8 /* 2014AudiS5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014AudiS5.jpg; sourceTree = "<group>"; };
+		7BF06BCB1D7AB023002040E8 /* 2014AudiS6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014AudiS6.jpg; sourceTree = "<group>"; };
+		7BF06BCC1D7AB023002040E8 /* 2014AudiS7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014AudiS7.jpg; sourceTree = "<group>"; };
+		7BF06BCD1D7AB023002040E8 /* 2014BuickEnclave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014BuickEnclave.jpg; sourceTree = "<group>"; };
+		7BF06BCE1D7AB023002040E8 /* 2014BuickLacrosse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014BuickLacrosse.jpg; sourceTree = "<group>"; };
+		7BF06BCF1D7AB023002040E8 /* 2014CadillacATS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014CadillacATS.jpg; sourceTree = "<group>"; };
+		7BF06BD01D7AB023002040E8 /* 2014CadillacCTS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014CadillacCTS.jpg; sourceTree = "<group>"; };
+		7BF06BD11D7AB023002040E8 /* 2014CadillacSRX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014CadillacSRX.jpg; sourceTree = "<group>"; };
+		7BF06BD21D7AB023002040E8 /* 2014CadillacXTS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014CadillacXTS.jpg; sourceTree = "<group>"; };
+		7BF06BD31D7AB023002040E8 /* 2014ChevroletCruze.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014ChevroletCruze.jpg; sourceTree = "<group>"; };
+		7BF06BD41D7AB023002040E8 /* 2014ChevroletEquinox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014ChevroletEquinox.jpg; sourceTree = "<group>"; };
+		7BF06BD51D7AB023002040E8 /* 2014ChevroletTahoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014ChevroletTahoe.jpg; sourceTree = "<group>"; };
+		7BF06BD61D7AB023002040E8 /* 2014ChevroletTraverse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014ChevroletTraverse.jpg; sourceTree = "<group>"; };
+		7BF06BD71D7AB023002040E8 /* 2014ChevroletVolt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014ChevroletVolt.jpg; sourceTree = "<group>"; };
+		7BF06BD81D7AB023002040E8 /* 2014Chrysler300.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014Chrysler300.jpg; sourceTree = "<group>"; };
+		7BF06BD91D7AB023002040E8 /* 2014DodgeChallenger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014DodgeChallenger.jpg; sourceTree = "<group>"; };
+		7BF06BDA1D7AB023002040E8 /* 2014DodgeJourney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014DodgeJourney.jpg; sourceTree = "<group>"; };
+		7BF06BDB1D7AB023002040E8 /* 2014FordEdge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014FordEdge.jpg; sourceTree = "<group>"; };
+		7BF06BDC1D7AB023002040E8 /* 2014FordEscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014FordEscape.jpg; sourceTree = "<group>"; };
+		7BF06BDD1D7AB023002040E8 /* 2014FordFiesta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014FordFiesta.jpg; sourceTree = "<group>"; };
+		7BF06BDE1D7AB023002040E8 /* 2014FordFocus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014FordFocus.jpg; sourceTree = "<group>"; };
+		7BF06BDF1D7AB023002040E8 /* 2014FordFusion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014FordFusion.jpg; sourceTree = "<group>"; };
+		7BF06BE01D7AB023002040E8 /* 2014HondaCivic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014HondaCivic.jpg; sourceTree = "<group>"; };
+		7BF06BE11D7AB023002040E8 /* 2014HondaCrosstour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014HondaCrosstour.jpg; sourceTree = "<group>"; };
+		7BF06BE21D7AB023002040E8 /* 2014HondaCRV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014HondaCRV.jpg; sourceTree = "<group>"; };
+		7BF06BE31D7AB023002040E8 /* 2014HondaOdyssey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014HondaOdyssey.jpg; sourceTree = "<group>"; };
+		7BF06BE41D7AB023002040E8 /* 2014HondaPilot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014HondaPilot.jpg; sourceTree = "<group>"; };
+		7BF06BE51D7AB023002040E8 /* 2014HondaRidgeline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014HondaRidgeline.jpg; sourceTree = "<group>"; };
+		7BF06BE61D7AB023002040E8 /* 2014HyundaiAccent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014HyundaiAccent.jpg; sourceTree = "<group>"; };
+		7BF06BE71D7AB023002040E8 /* 2014HyundaiAzera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014HyundaiAzera.jpg; sourceTree = "<group>"; };
+		7BF06BE81D7AB023002040E8 /* 2014HyundaiEquus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014HyundaiEquus.jpg; sourceTree = "<group>"; };
+		7BF06BE91D7AB023002040E8 /* 2014HyundaiGenesis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014HyundaiGenesis.jpg; sourceTree = "<group>"; };
+		7BF06BEA1D7AB023002040E8 /* 2014HyundaiSantafe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2014HyundaiSantafe.jpg; sourceTree = "<group>"; };
+		7BF06BEB1D7AB023002040E8 /* 2015AcuraILX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015AcuraILX.jpg; sourceTree = "<group>"; };
+		7BF06BEC1D7AB023002040E8 /* 2015AudiA3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015AudiA3.jpg; sourceTree = "<group>"; };
+		7BF06BED1D7AB023002040E8 /* 2015AudiA5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015AudiA5.jpg; sourceTree = "<group>"; };
+		7BF06BEE1D7AB023002040E8 /* 2015AudiA6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015AudiA6.jpg; sourceTree = "<group>"; };
+		7BF06BEF1D7AB023002040E8 /* 2015AudiA7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015AudiA7.jpg; sourceTree = "<group>"; };
+		7BF06BF01D7AB023002040E8 /* 2015AudiA8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015AudiA8.jpg; sourceTree = "<group>"; };
+		7BF06BF11D7AB023002040E8 /* 2015AudiQ3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015AudiQ3.jpg; sourceTree = "<group>"; };
+		7BF06BF21D7AB023002040E8 /* 2015AudiQ5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015AudiQ5.jpg; sourceTree = "<group>"; };
+		7BF06BF31D7AB023002040E8 /* 2015AudiQ7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015AudiQ7.jpg; sourceTree = "<group>"; };
+		7BF06BF41D7AB023002040E8 /* 2015AudiR8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015AudiR8.jpg; sourceTree = "<group>"; };
+		7BF06BF51D7AB023002040E8 /* 2015AudiS4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015AudiS4.jpg; sourceTree = "<group>"; };
+		7BF06BF61D7AB023002040E8 /* 2015AudiS5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015AudiS5.jpg; sourceTree = "<group>"; };
+		7BF06BF71D7AB023002040E8 /* 2015AudiS6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015AudiS6.jpg; sourceTree = "<group>"; };
+		7BF06BF81D7AB023002040E8 /* 2015AudiS7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015AudiS7.jpg; sourceTree = "<group>"; };
+		7BF06BF91D7AB023002040E8 /* 2015BuickEnclave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015BuickEnclave.jpg; sourceTree = "<group>"; };
+		7BF06BFA1D7AB023002040E8 /* 2015BuickLacrosse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015BuickLacrosse.jpg; sourceTree = "<group>"; };
+		7BF06BFB1D7AB023002040E8 /* 2015CadillacATS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015CadillacATS.jpg; sourceTree = "<group>"; };
+		7BF06BFC1D7AB023002040E8 /* 2015CadillacCTS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015CadillacCTS.jpg; sourceTree = "<group>"; };
+		7BF06BFD1D7AB023002040E8 /* 2015CadillacSRX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015CadillacSRX.jpg; sourceTree = "<group>"; };
+		7BF06BFE1D7AB023002040E8 /* 2015CadillacXTS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015CadillacXTS.jpg; sourceTree = "<group>"; };
+		7BF06BFF1D7AB023002040E8 /* 2015ChevroletColorado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015ChevroletColorado.jpg; sourceTree = "<group>"; };
+		7BF06C001D7AB023002040E8 /* 2015ChevroletCruze.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015ChevroletCruze.jpg; sourceTree = "<group>"; };
+		7BF06C011D7AB023002040E8 /* 2015ChevroletEquinox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015ChevroletEquinox.jpg; sourceTree = "<group>"; };
+		7BF06C021D7AB023002040E8 /* 2015ChevroletTahoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015ChevroletTahoe.jpg; sourceTree = "<group>"; };
+		7BF06C031D7AB023002040E8 /* 2015ChevroletTraverse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015ChevroletTraverse.jpg; sourceTree = "<group>"; };
+		7BF06C041D7AB023002040E8 /* 2015ChevroletVolt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015ChevroletVolt.jpg; sourceTree = "<group>"; };
+		7BF06C051D7AB023002040E8 /* 2015Chrysler300.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015Chrysler300.jpg; sourceTree = "<group>"; };
+		7BF06C061D7AB023002040E8 /* 2015DodgeChallenger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015DodgeChallenger.jpg; sourceTree = "<group>"; };
+		7BF06C071D7AB023002040E8 /* 2015DodgeJourney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015DodgeJourney.jpg; sourceTree = "<group>"; };
+		7BF06C081D7AB023002040E8 /* 2015DodgeViper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015DodgeViper.jpg; sourceTree = "<group>"; };
+		7BF06C091D7AB023002040E8 /* 2015FordEdge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015FordEdge.jpg; sourceTree = "<group>"; };
+		7BF06C0A1D7AB023002040E8 /* 2015FordEscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015FordEscape.jpg; sourceTree = "<group>"; };
+		7BF06C0B1D7AB023002040E8 /* 2015FordFiesta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015FordFiesta.jpg; sourceTree = "<group>"; };
+		7BF06C0C1D7AB023002040E8 /* 2015FordFlex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015FordFlex.jpg; sourceTree = "<group>"; };
+		7BF06C0D1D7AB023002040E8 /* 2015FordFocus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015FordFocus.jpg; sourceTree = "<group>"; };
+		7BF06C0E1D7AB023002040E8 /* 2015FordFusion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015FordFusion.jpg; sourceTree = "<group>"; };
+		7BF06C0F1D7AB023002040E8 /* 2015HondaAccord.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015HondaAccord.jpg; sourceTree = "<group>"; };
+		7BF06C101D7AB023002040E8 /* 2015HondaCrosstour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015HondaCrosstour.jpg; sourceTree = "<group>"; };
+		7BF06C111D7AB023002040E8 /* 2015HondaCRV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015HondaCRV.jpg; sourceTree = "<group>"; };
+		7BF06C121D7AB023002040E8 /* 2015HondaFit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015HondaFit.jpg; sourceTree = "<group>"; };
+		7BF06C131D7AB023002040E8 /* 2015HondaOdyssey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015HondaOdyssey.jpg; sourceTree = "<group>"; };
+		7BF06C141D7AB023002040E8 /* 2015HondaPilot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015HondaPilot.jpg; sourceTree = "<group>"; };
+		7BF06C151D7AB023002040E8 /* 2015HyundaiSonata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015HyundaiSonata.jpg; sourceTree = "<group>"; };
+		7BF06C161D7AB023002040E8 /* 2015HyundaiTucson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015HyundaiTucson.jpg; sourceTree = "<group>"; };
+		7BF06C171D7AB023002040E8 /* 2015HyundaiVeloster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2015HyundaiVeloster.jpg; sourceTree = "<group>"; };
+		7BF06C721D7B3895002040E8 /* Double+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+extension.swift"; sourceTree = "<group>"; };
+		7BF06C741D7B8BEE002040E8 /* cars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cars.json; sourceTree = "<group>"; };
+		BF08EDC0224E4019000EE433 /* Car InventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Car InventoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF08EDC2224E401A000EE433 /* Car_InventoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_InventoryTests.swift; sourceTree = "<group>"; };
+		BF08EDC4224E401A000EE433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BF06AE51D7AAAD9002040E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF08EDBD224E4019000EE433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BF06ADF1D7AAAD9002040E8 = {
+			isa = PBXGroup;
+			children = (
+				7BF06AEA1D7AAAD9002040E8 /* Car Inventory */,
+				BF08EDC1224E401A000EE433 /* Car InventoryTests */,
+				7BF06AE91D7AAAD9002040E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BF06AE91D7AAAD9002040E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BF06AE81D7AAAD9002040E8 /* Car Inventory.app */,
+				BF08EDC0224E4019000EE433 /* Car InventoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BF06AEA1D7AAAD9002040E8 /* Car Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				7BF06C741D7B8BEE002040E8 /* cars.json */,
+				7BF06C711D7B3889002040E8 /* utility */,
+				7BF06BBF1D7AB023002040E8 /* images */,
+				7BF06BBB1D7AAE52002040E8 /* service */,
+				7BF06BB21D7AADBB002040E8 /* controller */,
+				7BF06AEB1D7AAAD9002040E8 /* AppDelegate.swift */,
+				7BF06BBE1D7AB023002040E8 /* CoreDataStack.swift */,
+				7BF06AEF1D7AAAD9002040E8 /* Main.storyboard */,
+				7BF06AF51D7AAAD9002040E8 /* Assets.xcassets */,
+				7BF06AF71D7AAAD9002040E8 /* LaunchScreen.storyboard */,
+				7BF06AFA1D7AAAD9002040E8 /* Info.plist */,
+				7BF06AF21D7AAAD9002040E8 /* Car_Inventory.xcdatamodeld */,
+			);
+			path = "Car Inventory";
+			sourceTree = "<group>";
+		};
+		7BF06BB21D7AADBB002040E8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7BF06BB31D7AADD0002040E8 /* ReportTableViewController.swift */,
+				7BF06BB51D7AADFF002040E8 /* CarDetailViewController.swift */,
+				7BF06BB71D7AAE32002040E8 /* InventoryCollectionViewController.swift */,
+				7BF06BB91D7AAE45002040E8 /* InventoryCollectionViewCell.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		7BF06BBB1D7AAE52002040E8 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				7BF06BBC1D7AAE65002040E8 /* CarService.swift */,
+			);
+			name = service;
+			sourceTree = "<group>";
+		};
+		7BF06BBF1D7AB023002040E8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7BF06BC01D7AB023002040E8 /* 2014AcuraILX.jpg */,
+				7BF06BC11D7AB023002040E8 /* 2014AudiA4.jpg */,
+				7BF06BC21D7AB023002040E8 /* 2014AudiA5.jpg */,
+				7BF06BC31D7AB023002040E8 /* 2014AudiA6.jpg */,
+				7BF06BC41D7AB023002040E8 /* 2014AudiA7.jpg */,
+				7BF06BC51D7AB023002040E8 /* 2014AudiA8.jpg */,
+				7BF06BC61D7AB023002040E8 /* 2014AudiQ5.jpg */,
+				7BF06BC71D7AB023002040E8 /* 2014AudiQ7.jpg */,
+				7BF06BC81D7AB023002040E8 /* 2014AudiR8.jpg */,
+				7BF06BC91D7AB023002040E8 /* 2014AudiS4.jpg */,
+				7BF06BCA1D7AB023002040E8 /* 2014AudiS5.jpg */,
+				7BF06BCB1D7AB023002040E8 /* 2014AudiS6.jpg */,
+				7BF06BCC1D7AB023002040E8 /* 2014AudiS7.jpg */,
+				7BF06BCD1D7AB023002040E8 /* 2014BuickEnclave.jpg */,
+				7BF06BCE1D7AB023002040E8 /* 2014BuickLacrosse.jpg */,
+				7BF06BCF1D7AB023002040E8 /* 2014CadillacATS.jpg */,
+				7BF06BD01D7AB023002040E8 /* 2014CadillacCTS.jpg */,
+				7BF06BD11D7AB023002040E8 /* 2014CadillacSRX.jpg */,
+				7BF06BD21D7AB023002040E8 /* 2014CadillacXTS.jpg */,
+				7BF06BD31D7AB023002040E8 /* 2014ChevroletCruze.jpg */,
+				7BF06BD41D7AB023002040E8 /* 2014ChevroletEquinox.jpg */,
+				7BF06BD51D7AB023002040E8 /* 2014ChevroletTahoe.jpg */,
+				7BF06BD61D7AB023002040E8 /* 2014ChevroletTraverse.jpg */,
+				7BF06BD71D7AB023002040E8 /* 2014ChevroletVolt.jpg */,
+				7BF06BD81D7AB023002040E8 /* 2014Chrysler300.jpg */,
+				7BF06BD91D7AB023002040E8 /* 2014DodgeChallenger.jpg */,
+				7BF06BDA1D7AB023002040E8 /* 2014DodgeJourney.jpg */,
+				7BF06BDB1D7AB023002040E8 /* 2014FordEdge.jpg */,
+				7BF06BDC1D7AB023002040E8 /* 2014FordEscape.jpg */,
+				7BF06BDD1D7AB023002040E8 /* 2014FordFiesta.jpg */,
+				7BF06BDE1D7AB023002040E8 /* 2014FordFocus.jpg */,
+				7BF06BDF1D7AB023002040E8 /* 2014FordFusion.jpg */,
+				7BF06BE01D7AB023002040E8 /* 2014HondaCivic.jpg */,
+				7BF06BE11D7AB023002040E8 /* 2014HondaCrosstour.jpg */,
+				7BF06BE21D7AB023002040E8 /* 2014HondaCRV.jpg */,
+				7BF06BE31D7AB023002040E8 /* 2014HondaOdyssey.jpg */,
+				7BF06BE41D7AB023002040E8 /* 2014HondaPilot.jpg */,
+				7BF06BE51D7AB023002040E8 /* 2014HondaRidgeline.jpg */,
+				7BF06BE61D7AB023002040E8 /* 2014HyundaiAccent.jpg */,
+				7BF06BE71D7AB023002040E8 /* 2014HyundaiAzera.jpg */,
+				7BF06BE81D7AB023002040E8 /* 2014HyundaiEquus.jpg */,
+				7BF06BE91D7AB023002040E8 /* 2014HyundaiGenesis.jpg */,
+				7BF06BEA1D7AB023002040E8 /* 2014HyundaiSantafe.jpg */,
+				7BF06BEB1D7AB023002040E8 /* 2015AcuraILX.jpg */,
+				7BF06BEC1D7AB023002040E8 /* 2015AudiA3.jpg */,
+				7BF06BED1D7AB023002040E8 /* 2015AudiA5.jpg */,
+				7BF06BEE1D7AB023002040E8 /* 2015AudiA6.jpg */,
+				7BF06BEF1D7AB023002040E8 /* 2015AudiA7.jpg */,
+				7BF06BF01D7AB023002040E8 /* 2015AudiA8.jpg */,
+				7BF06BF11D7AB023002040E8 /* 2015AudiQ3.jpg */,
+				7BF06BF21D7AB023002040E8 /* 2015AudiQ5.jpg */,
+				7BF06BF31D7AB023002040E8 /* 2015AudiQ7.jpg */,
+				7BF06BF41D7AB023002040E8 /* 2015AudiR8.jpg */,
+				7BF06BF51D7AB023002040E8 /* 2015AudiS4.jpg */,
+				7BF06BF61D7AB023002040E8 /* 2015AudiS5.jpg */,
+				7BF06BF71D7AB023002040E8 /* 2015AudiS6.jpg */,
+				7BF06BF81D7AB023002040E8 /* 2015AudiS7.jpg */,
+				7BF06BF91D7AB023002040E8 /* 2015BuickEnclave.jpg */,
+				7BF06BFA1D7AB023002040E8 /* 2015BuickLacrosse.jpg */,
+				7BF06BFB1D7AB023002040E8 /* 2015CadillacATS.jpg */,
+				7BF06BFC1D7AB023002040E8 /* 2015CadillacCTS.jpg */,
+				7BF06BFD1D7AB023002040E8 /* 2015CadillacSRX.jpg */,
+				7BF06BFE1D7AB023002040E8 /* 2015CadillacXTS.jpg */,
+				7BF06BFF1D7AB023002040E8 /* 2015ChevroletColorado.jpg */,
+				7BF06C001D7AB023002040E8 /* 2015ChevroletCruze.jpg */,
+				7BF06C011D7AB023002040E8 /* 2015ChevroletEquinox.jpg */,
+				7BF06C021D7AB023002040E8 /* 2015ChevroletTahoe.jpg */,
+				7BF06C031D7AB023002040E8 /* 2015ChevroletTraverse.jpg */,
+				7BF06C041D7AB023002040E8 /* 2015ChevroletVolt.jpg */,
+				7BF06C051D7AB023002040E8 /* 2015Chrysler300.jpg */,
+				7BF06C061D7AB023002040E8 /* 2015DodgeChallenger.jpg */,
+				7BF06C071D7AB023002040E8 /* 2015DodgeJourney.jpg */,
+				7BF06C081D7AB023002040E8 /* 2015DodgeViper.jpg */,
+				7BF06C091D7AB023002040E8 /* 2015FordEdge.jpg */,
+				7BF06C0A1D7AB023002040E8 /* 2015FordEscape.jpg */,
+				7BF06C0B1D7AB023002040E8 /* 2015FordFiesta.jpg */,
+				7BF06C0C1D7AB023002040E8 /* 2015FordFlex.jpg */,
+				7BF06C0D1D7AB023002040E8 /* 2015FordFocus.jpg */,
+				7BF06C0E1D7AB023002040E8 /* 2015FordFusion.jpg */,
+				7BF06C0F1D7AB023002040E8 /* 2015HondaAccord.jpg */,
+				7BF06C101D7AB023002040E8 /* 2015HondaCrosstour.jpg */,
+				7BF06C111D7AB023002040E8 /* 2015HondaCRV.jpg */,
+				7BF06C121D7AB023002040E8 /* 2015HondaFit.jpg */,
+				7BF06C131D7AB023002040E8 /* 2015HondaOdyssey.jpg */,
+				7BF06C141D7AB023002040E8 /* 2015HondaPilot.jpg */,
+				7BF06C151D7AB023002040E8 /* 2015HyundaiSonata.jpg */,
+				7BF06C161D7AB023002040E8 /* 2015HyundaiTucson.jpg */,
+				7BF06C171D7AB023002040E8 /* 2015HyundaiVeloster.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		7BF06C711D7B3889002040E8 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				7BF06C721D7B3895002040E8 /* Double+extension.swift */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+		BF08EDC1224E401A000EE433 /* Car InventoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF08EDC2224E401A000EE433 /* Car_InventoryTests.swift */,
+				BF08EDC4224E401A000EE433 /* Info.plist */,
+			);
+			path = "Car InventoryTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BF06AE71D7AAAD9002040E8 /* Car Inventory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF06AFD1D7AAAD9002040E8 /* Build configuration list for PBXNativeTarget "Car Inventory" */;
+			buildPhases = (
+				7BF06AE41D7AAAD9002040E8 /* Sources */,
+				7BF06AE51D7AAAD9002040E8 /* Frameworks */,
+				7BF06AE61D7AAAD9002040E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Car Inventory";
+			productName = "Car Inventory";
+			productReference = 7BF06AE81D7AAAD9002040E8 /* Car Inventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF08EDBF224E4019000EE433 /* Car InventoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF08EDC7224E401A000EE433 /* Build configuration list for PBXNativeTarget "Car InventoryTests" */;
+			buildPhases = (
+				BF08EDBC224E4019000EE433 /* Sources */,
+				BF08EDBD224E4019000EE433 /* Frameworks */,
+				BF08EDBE224E4019000EE433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF08EDC6224E401A000EE433 /* PBXTargetDependency */,
+			);
+			name = "Car InventoryTests";
+			productName = "Car InventoryTests";
+			productReference = BF08EDC0224E4019000EE433 /* Car InventoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BF06AE01D7AAAD9002040E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = devhubs;
+				TargetAttributes = {
+					7BF06AE71D7AAAD9002040E8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MW4DYSHR2N;
+						ProvisioningStyle = Automatic;
+					};
+					BF08EDBF224E4019000EE433 = {
+						CreatedOnToolsVersion = 10.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7BF06AE71D7AAAD9002040E8;
+					};
+				};
+			};
+			buildConfigurationList = 7BF06AE31D7AAAD9002040E8 /* Build configuration list for PBXProject "Car Inventory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 7BF06ADF1D7AAAD9002040E8;
+			productRefGroup = 7BF06AE91D7AAAD9002040E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BF06AE71D7AAAD9002040E8 /* Car Inventory */,
+				BF08EDBF224E4019000EE433 /* Car InventoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BF06AE61D7AAAD9002040E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF06C311D7AB023002040E8 /* 2014Chrysler300.jpg in Resources */,
+				7BF06C661D7AB023002040E8 /* 2015FordFocus.jpg in Resources */,
+				7BF06C4F1D7AB023002040E8 /* 2015AudiS5.jpg in Resources */,
+				7BF06C6D1D7AB023002040E8 /* 2015HondaPilot.jpg in Resources */,
+				7BF06C2A1D7AB023002040E8 /* 2014CadillacSRX.jpg in Resources */,
+				7BF06C6C1D7AB023002040E8 /* 2015HondaOdyssey.jpg in Resources */,
+				7BF06C451D7AB023002040E8 /* 2015AudiA3.jpg in Resources */,
+				7BF06C351D7AB023002040E8 /* 2014FordEscape.jpg in Resources */,
+				7BF06C691D7AB023002040E8 /* 2015HondaCrosstour.jpg in Resources */,
+				7BF06C521D7AB023002040E8 /* 2015BuickEnclave.jpg in Resources */,
+				7BF06C4D1D7AB023002040E8 /* 2015AudiR8.jpg in Resources */,
+				7BF06C221D7AB023002040E8 /* 2014AudiS4.jpg in Resources */,
+				7BF06C431D7AB023002040E8 /* 2014HyundaiSantafe.jpg in Resources */,
+				7BF06C511D7AB023002040E8 /* 2015AudiS7.jpg in Resources */,
+				7BF06C471D7AB023002040E8 /* 2015AudiA6.jpg in Resources */,
+				7BF06C601D7AB023002040E8 /* 2015DodgeJourney.jpg in Resources */,
+				7BF06C3F1D7AB023002040E8 /* 2014HyundaiAccent.jpg in Resources */,
+				7BF06AF91D7AAAD9002040E8 /* LaunchScreen.storyboard in Resources */,
+				7BF06C5B1D7AB023002040E8 /* 2015ChevroletTahoe.jpg in Resources */,
+				7BF06C2E1D7AB023002040E8 /* 2014ChevroletTahoe.jpg in Resources */,
+				7BF06C5C1D7AB023002040E8 /* 2015ChevroletTraverse.jpg in Resources */,
+				7BF06C411D7AB023002040E8 /* 2014HyundaiEquus.jpg in Resources */,
+				7BF06C1C1D7AB023002040E8 /* 2014AudiA6.jpg in Resources */,
+				7BF06C6B1D7AB023002040E8 /* 2015HondaFit.jpg in Resources */,
+				7BF06C1D1D7AB023002040E8 /* 2014AudiA7.jpg in Resources */,
+				7BF06C3B1D7AB023002040E8 /* 2014HondaCRV.jpg in Resources */,
+				7BF06AF61D7AAAD9002040E8 /* Assets.xcassets in Resources */,
+				7BF06C231D7AB023002040E8 /* 2014AudiS5.jpg in Resources */,
+				7BF06C631D7AB023002040E8 /* 2015FordEscape.jpg in Resources */,
+				7BF06C291D7AB023002040E8 /* 2014CadillacCTS.jpg in Resources */,
+				7BF06C211D7AB023002040E8 /* 2014AudiR8.jpg in Resources */,
+				7BF06C421D7AB023002040E8 /* 2014HyundaiGenesis.jpg in Resources */,
+				7BF06C241D7AB023002040E8 /* 2014AudiS6.jpg in Resources */,
+				7BF06C371D7AB023002040E8 /* 2014FordFocus.jpg in Resources */,
+				7BF06C1F1D7AB023002040E8 /* 2014AudiQ5.jpg in Resources */,
+				7BF06C191D7AB023002040E8 /* 2014AcuraILX.jpg in Resources */,
+				7BF06C3D1D7AB023002040E8 /* 2014HondaPilot.jpg in Resources */,
+				7BF06C641D7AB023002040E8 /* 2015FordFiesta.jpg in Resources */,
+				7BF06C561D7AB023002040E8 /* 2015CadillacSRX.jpg in Resources */,
+				7BF06C701D7AB023002040E8 /* 2015HyundaiVeloster.jpg in Resources */,
+				7BF06C1B1D7AB023002040E8 /* 2014AudiA5.jpg in Resources */,
+				7BF06C651D7AB023002040E8 /* 2015FordFlex.jpg in Resources */,
+				7BF06C341D7AB023002040E8 /* 2014FordEdge.jpg in Resources */,
+				7BF06C2B1D7AB023002040E8 /* 2014CadillacXTS.jpg in Resources */,
+				7BF06C361D7AB023002040E8 /* 2014FordFiesta.jpg in Resources */,
+				7BF06C2D1D7AB023002040E8 /* 2014ChevroletEquinox.jpg in Resources */,
+				7BF06C6A1D7AB023002040E8 /* 2015HondaCRV.jpg in Resources */,
+				7BF06C4C1D7AB023002040E8 /* 2015AudiQ7.jpg in Resources */,
+				7BF06C681D7AB023002040E8 /* 2015HondaAccord.jpg in Resources */,
+				7BF06C531D7AB023002040E8 /* 2015BuickLacrosse.jpg in Resources */,
+				7BF06C3A1D7AB023002040E8 /* 2014HondaCrosstour.jpg in Resources */,
+				7BF06C201D7AB023002040E8 /* 2014AudiQ7.jpg in Resources */,
+				7BF06C481D7AB023002040E8 /* 2015AudiA7.jpg in Resources */,
+				7BF06C611D7AB023002040E8 /* 2015DodgeViper.jpg in Resources */,
+				7BF06C1A1D7AB023002040E8 /* 2014AudiA4.jpg in Resources */,
+				7BF06C581D7AB023002040E8 /* 2015ChevroletColorado.jpg in Resources */,
+				7BF06C621D7AB023002040E8 /* 2015FordEdge.jpg in Resources */,
+				7BF06C541D7AB023002040E8 /* 2015CadillacATS.jpg in Resources */,
+				7BF06C261D7AB023002040E8 /* 2014BuickEnclave.jpg in Resources */,
+				7BF06C2F1D7AB023002040E8 /* 2014ChevroletTraverse.jpg in Resources */,
+				7BF06C501D7AB023002040E8 /* 2015AudiS6.jpg in Resources */,
+				7BF06C571D7AB023002040E8 /* 2015CadillacXTS.jpg in Resources */,
+				7BF06AF11D7AAAD9002040E8 /* Main.storyboard in Resources */,
+				7BF06C5E1D7AB023002040E8 /* 2015Chrysler300.jpg in Resources */,
+				7BF06C2C1D7AB023002040E8 /* 2014ChevroletCruze.jpg in Resources */,
+				7BF06C4E1D7AB023002040E8 /* 2015AudiS4.jpg in Resources */,
+				7BF06C5F1D7AB023002040E8 /* 2015DodgeChallenger.jpg in Resources */,
+				7BF06C671D7AB023002040E8 /* 2015FordFusion.jpg in Resources */,
+				7BF06C491D7AB023002040E8 /* 2015AudiA8.jpg in Resources */,
+				7BF06C591D7AB023002040E8 /* 2015ChevroletCruze.jpg in Resources */,
+				7BF06C751D7B8BEE002040E8 /* cars.json in Resources */,
+				7BF06C401D7AB023002040E8 /* 2014HyundaiAzera.jpg in Resources */,
+				7BF06C4B1D7AB023002040E8 /* 2015AudiQ5.jpg in Resources */,
+				7BF06C5D1D7AB023002040E8 /* 2015ChevroletVolt.jpg in Resources */,
+				7BF06C5A1D7AB023002040E8 /* 2015ChevroletEquinox.jpg in Resources */,
+				7BF06C321D7AB023002040E8 /* 2014DodgeChallenger.jpg in Resources */,
+				7BF06C551D7AB023002040E8 /* 2015CadillacCTS.jpg in Resources */,
+				7BF06C301D7AB023002040E8 /* 2014ChevroletVolt.jpg in Resources */,
+				7BF06C281D7AB023002040E8 /* 2014CadillacATS.jpg in Resources */,
+				7BF06C391D7AB023002040E8 /* 2014HondaCivic.jpg in Resources */,
+				7BF06C6F1D7AB023002040E8 /* 2015HyundaiTucson.jpg in Resources */,
+				7BF06C251D7AB023002040E8 /* 2014AudiS7.jpg in Resources */,
+				7BF06C271D7AB023002040E8 /* 2014BuickLacrosse.jpg in Resources */,
+				7BF06C3E1D7AB023002040E8 /* 2014HondaRidgeline.jpg in Resources */,
+				7BF06C3C1D7AB023002040E8 /* 2014HondaOdyssey.jpg in Resources */,
+				7BF06C461D7AB023002040E8 /* 2015AudiA5.jpg in Resources */,
+				7BF06C381D7AB023002040E8 /* 2014FordFusion.jpg in Resources */,
+				7BF06C1E1D7AB023002040E8 /* 2014AudiA8.jpg in Resources */,
+				7BF06C6E1D7AB023002040E8 /* 2015HyundaiSonata.jpg in Resources */,
+				7BF06C4A1D7AB023002040E8 /* 2015AudiQ3.jpg in Resources */,
+				7BF06C331D7AB023002040E8 /* 2014DodgeJourney.jpg in Resources */,
+				7BF06C441D7AB023002040E8 /* 2015AcuraILX.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF08EDBE224E4019000EE433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BF06AE41D7AAAD9002040E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF06BBA1D7AAE45002040E8 /* InventoryCollectionViewCell.swift in Sources */,
+				7BF06BBD1D7AAE65002040E8 /* CarService.swift in Sources */,
+				7BF06C181D7AB023002040E8 /* CoreDataStack.swift in Sources */,
+				7BF06BB41D7AADD0002040E8 /* ReportTableViewController.swift in Sources */,
+				7BF06AEC1D7AAAD9002040E8 /* AppDelegate.swift in Sources */,
+				7BF06C731D7B3895002040E8 /* Double+extension.swift in Sources */,
+				7BF06BB81D7AAE32002040E8 /* InventoryCollectionViewController.swift in Sources */,
+				7BF06AF41D7AAAD9002040E8 /* Car_Inventory.xcdatamodeld in Sources */,
+				7BF06BB61D7AADFF002040E8 /* CarDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF08EDBC224E4019000EE433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF08EDC3224E401A000EE433 /* Car_InventoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF08EDC6224E401A000EE433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BF06AE71D7AAAD9002040E8 /* Car Inventory */;
+			targetProxy = BF08EDC5224E401A000EE433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BF06AEF1D7AAAD9002040E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BF06AF01D7AAAD9002040E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BF06AF71D7AAAD9002040E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BF06AF81D7AAAD9002040E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BF06AFB1D7AAAD9002040E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BF06AFC1D7AAAD9002040E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BF06AFE1D7AAAD9002040E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MW4DYSHR2N;
+				INFOPLIST_FILE = "Car Inventory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devhubs.Car-Inventory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7BF06AFF1D7AAAD9002040E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MW4DYSHR2N;
+				INFOPLIST_FILE = "Car Inventory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devhubs.Car-Inventory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BF08EDC8224E401A000EE433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Car InventoryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "passingDataBetweenControllers.com.Car-InventoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Car Inventory.app/Car Inventory";
+			};
+			name = Debug;
+		};
+		BF08EDC9224E401A000EE433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Car InventoryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "passingDataBetweenControllers.com.Car-InventoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Car Inventory.app/Car Inventory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BF06AE31D7AAAD9002040E8 /* Build configuration list for PBXProject "Car Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF06AFB1D7AAAD9002040E8 /* Debug */,
+				7BF06AFC1D7AAAD9002040E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF06AFD1D7AAAD9002040E8 /* Build configuration list for PBXNativeTarget "Car Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF06AFE1D7AAAD9002040E8 /* Debug */,
+				7BF06AFF1D7AAAD9002040E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF08EDC7224E401A000EE433 /* Build configuration list for PBXNativeTarget "Car InventoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF08EDC8224E401A000EE433 /* Debug */,
+				BF08EDC9224E401A000EE433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7BF06AF21D7AAAD9002040E8 /* Car_Inventory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7BF06AF31D7AAAD9002040E8 /* Car_Inventory.xcdatamodel */,
+			);
+			currentVersion = 7BF06AF31D7AAAD9002040E8 /* Car_Inventory.xcdatamodel */;
+			path = Car_Inventory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7BF06AE01D7AAAD9002040E8 /* Project object */;
+}

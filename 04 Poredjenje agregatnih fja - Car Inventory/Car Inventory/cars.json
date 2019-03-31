@@ -1,0 +1,1983 @@
+{
+	"inventory": [{
+		"_id": {
+			"$oid": "55b14d63f43d097d2e88ae7c"
+		},
+		"image": "http://media.ed.edmunds-media.com/acura/ilx/2014/oem/2014_acura_ilx_sedan_base_fq_oem_8_600.jpg",
+		"key": "200471912-1437683043377",
+		"make": "Acura",
+		"model": "ILX",
+		"name": "Acura ILX",
+		"submodel": "sedan",
+		"trim": "Technology Package",
+		"type": "sedan",
+		"values": {
+			"comfort": 8.5,
+			"condition": 9,
+			"fuel_eff": 24,
+			"horsepower": 150,
+			"performance": 7,
+			"price": 31600,
+			"safety": "7.00"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14d65f43d097d2e88ae7e"
+		},
+		"image": "http://media.ed.edmunds-media.com/acura/ilx/2014/oem/2014_acura_ilx_sedan_base_fq_oem_5_600.jpg",
+		"key": "200701419-1437683045781",
+		"make": "Acura",
+		"model": "ILX",
+		"name": "Acura ILX",
+		"submodel": "sedan",
+		"trim": "Premium Package",
+		"type": "sedan",
+		"values": {
+			"comfort": 8.5,
+			"condition": 10,
+			"fuel_eff": 22,
+			"horsepower": 201,
+			"performance": 7,
+			"price": 29350,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14e5ef43d097d2e88ae80"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/a3/2015/oem/2015_audi_a3_sedan_20-tfsi-prestige-quattro_fq_oem_5_600.jpg",
+		"key": "200713431-1437683293837",
+		"make": "Audi",
+		"model": "A3",
+		"name": "Audi A3",
+		"submodel": "diesel",
+		"trim": "2.0 TDI Prestige",
+		"type": "sedan",
+		"values": {
+			"comfort": 8.5,
+			"condition": 8,
+			"fuel_eff": 31,
+			"horsepower": 150,
+			"performance": 7,
+			"price": 41050,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14e63f43d097d2e88ae82"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/a4/2013/oem/2013_audi_a4_sedan_20t-premium-quattro_fq_oem_2_600.jpg",
+		"key": "200720774-1437683299575",
+		"make": "Audi",
+		"model": "A4",
+		"name": "Audi A4",
+		"submodel": "sedan",
+		"trim": "2.0T Premium Plus quattro",
+		"type": "sedan",
+		"values": {
+			"comfort": 8.5,
+			"condition": 9,
+			"fuel_eff": 20,
+			"horsepower": 220,
+			"performance": 7,
+			"price": 39400,
+			"safety": "7.00"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14e6af43d097d2e88ae86"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/a5/2015/oem/2015_audi_a5_coupe_20t-premium-quattro_fq_oem_5_600.jpg",
+		"key": "200702232-1437683306023",
+		"make": "Audi",
+		"model": "A5",
+		"name": "Audi A5",
+		"submodel": "coupe",
+		"trim": "2.0T Premium quattro",
+		"type": "coupe",
+		"values": {
+			"comfort": 8.5,
+			"condition": 9,
+			"fuel_eff": 22,
+			"horsepower": 220,
+			"performance": 8.5,
+			"price": 40000,
+			"safety": "9.50"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14e6df43d097d2e88ae88"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/a5/2013/oem/2013_audi_a5_coupe_20t-premium-quattro_fq_oem_2_600.jpg",
+		"key": "200722286-1437683308592",
+		"make": "Audi",
+		"model": "A5",
+		"name": "Audi A5",
+		"submodel": "coupe",
+		"trim": "2.0T Premium Plus quattro",
+		"type": "coupe",
+		"values": {
+			"comfort": 8.5,
+			"condition": 9,
+			"fuel_eff": 22,
+			"horsepower": 220,
+			"performance": 8.5,
+			"price": 42100,
+			"safety": "9.50"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14e70f43d097d2e88ae8a"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/a6/2013/oem/2013_audi_a6_sedan_30t-premium-quattro_fq_oem_1_600.jpg",
+		"key": "200477463-1437683311879",
+		"make": "Audi",
+		"model": "A6",
+		"name": "Audi A6",
+		"submodel": "sedan",
+		"trim": "2.0T Premium",
+		"type": "sedan",
+		"values": {
+			"comfort": 8,
+			"condition": 10,
+			"fuel_eff": 25,
+			"horsepower": 220,
+			"performance": 8.5,
+			"price": 43100,
+			"safety": "8.00"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14e73f43d097d2e88ae8c"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/a6/2013/oem/2013_audi_a6_sedan_30t-premium-quattro_fq_oem_1_600.jpg",
+		"key": "200703030-1437683314686",
+		"make": "Audi",
+		"model": "A6",
+		"name": "Audi A6",
+		"submodel": "sedan",
+		"trim": "3.0T Prestige quattro",
+		"type": "sedan",
+		"values": {
+			"comfort": 8,
+			"condition": 10,
+			"fuel_eff": 18,
+			"horsepower": 310,
+			"performance": 8.5,
+			"price": 60100,
+			"safety": "8.00"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14e76f43d097d2e88ae8e"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/a7/2015/oem/2015_audi_a7_sedan_tdi-prestige_fq_oem_3_600.jpg",
+		"key": "200703196-1437683317729",
+		"make": "Audi",
+		"model": "A7",
+		"name": "Audi A7",
+		"submodel": "diesel",
+		"trim": "TDI Premium Plus quattro",
+		"type": "sedan",
+		"values": {
+			"comfort": 8,
+			"condition": 9,
+			"fuel_eff": 24,
+			"horsepower": 240,
+			"performance": 8.5,
+			"price": 68300,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14e79f43d097d2e88ae90"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/a7/2013/oem/2013_audi_a7_sedan_premium_fq_oem_1_600.jpg",
+		"key": "200479588-1437683320649",
+		"make": "Audi",
+		"model": "A7",
+		"name": "Audi A7",
+		"submodel": "sedan",
+		"trim": "Premium Plus quattro",
+		"type": "sedan",
+		"values": {
+			"comfort": 8,
+			"condition": 8,
+			"fuel_eff": 18,
+			"horsepower": 310,
+			"performance": 8.5,
+			"price": 64500,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14e7bf43d097d2e88ae92"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/a8/2013/oem/2013_audi_a8_sedan_30t-quattro_fq_oem_1_600.jpg",
+		"key": "200480473-1437683323560",
+		"make": "Audi",
+		"model": "A8",
+		"name": "Audi A8",
+		"submodel": "sedan",
+		"trim": "4.0T quattro",
+		"type": "sedan",
+		"values": {
+			"comfort": 9.5,
+			"condition": 10,
+			"fuel_eff": 17,
+			"horsepower": 420,
+			"performance": 8.5,
+			"price": 83900,
+			"safety": "9.25"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14e7ef43d097d2e88ae94"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/a8/2015/oem/2015_audi_a8_sedan_l-tdi-quattro_fq_oem_5_600.jpg",
+		"key": "200698754-1437683326472",
+		"make": "Audi",
+		"model": "A8",
+		"name": "Audi A8",
+		"submodel": "diesel",
+		"trim": "L TDI quattro",
+		"type": "sedan",
+		"values": {
+			"comfort": 9.5,
+			"condition": 8,
+			"fuel_eff": 24,
+			"horsepower": 240,
+			"performance": 8.5,
+			"price": 85100,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14e86f43d097d2e88ae96"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/q3/2015/oem/2015_audi_q3_4dr-suv_prestige-quattro_fq_oem_5_600.jpg",
+		"key": "200709267-1437683332736",
+		"make": "Audi",
+		"model": "Q3",
+		"name": "Audi Q3",
+		"submodel": "suv",
+		"trim": "Prestige quattro",
+		"type": "suv",
+		"values": {
+			"comfort": 8.5,
+			"condition": 10,
+			"fuel_eff": 20,
+			"horsepower": 200,
+			"performance": 6.5,
+			"price": 38500,
+			"safety": "6.50"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14e8cf43d097d2e88ae98"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/q5/2014/oem/2014_audi_q5_4dr-suv_30t-prestige-quattro_fq_oem_1_600.jpg",
+		"key": "200478731-1437683340196",
+		"make": "Audi",
+		"model": "Q5",
+		"name": "Audi Q5",
+		"submodel": "hybrid",
+		"trim": "2.0T Prestige quattro",
+		"type": "hybrid",
+		"values": {
+			"comfort": 8.5,
+			"condition": 8,
+			"fuel_eff": 24,
+			"horsepower": 245,
+			"performance": 6.5,
+			"price": 51300,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14e90f43d097d2e88ae9a"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/q5/2013/oem/2013_audi_q5_4dr-suv_30t-premium-plus-quattro_fq_oem_4_600.jpg",
+		"key": "200702784-1437683343383",
+		"make": "Audi",
+		"model": "Q5",
+		"name": "Audi Q5",
+		"submodel": "suv",
+		"trim": "3.0T Prestige quattro",
+		"type": "suv",
+		"values": {
+			"comfort": 7.5,
+			"condition": 9,
+			"fuel_eff": 18,
+			"horsepower": 272,
+			"performance": 8,
+			"price": 52900,
+			"safety": "8.50"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14e92f43d097d2e88ae9c"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/q7/2014/oem/2014_audi_q7_4dr-suv_30t-s-line-prestige-quattro_fq_oem_1_600.jpg",
+		"key": "200703520-1437683346361",
+		"make": "Audi",
+		"model": "Q7",
+		"name": "Audi Q7",
+		"submodel": "suv",
+		"trim": "3.0T Premium quattro",
+		"type": "suv",
+		"values": {
+			"comfort": 7.5,
+			"condition": 8,
+			"fuel_eff": 16,
+			"horsepower": 280,
+			"performance": 8,
+			"price": 48300,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14e96f43d097d2e88ae9e"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/q7/2013/oem/2013_audi_q7_4dr-suv_tdi-premium-quattro_fq_oem_2_600.jpg",
+		"key": "200480011-1437683349539",
+		"make": "Audi",
+		"model": "Q7",
+		"name": "Audi Q7",
+		"submodel": "diesel",
+		"trim": "TDI Premium quattro",
+		"type": "suv",
+		"values": {
+			"comfort": 7.5,
+			"condition": 8,
+			"fuel_eff": 19,
+			"horsepower": 240,
+			"performance": 8,
+			"price": 52900,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14e9bf43d097d2e88aea0"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/r8/2014/oem/2014_audi_r8_convertible_v10-quattro-spyder_fq_oem_2_600.jpg",
+		"key": "200468019-1437683354197",
+		"make": "Audi",
+		"model": "R8",
+		"name": "Audi R8",
+		"submodel": "convertible",
+		"trim": "V10 quattro Spyder",
+		"type": "convertible",
+		"values": {
+			"comfort": 7.5,
+			"condition": 10,
+			"fuel_eff": 13,
+			"horsepower": 525,
+			"performance": 8,
+			"price": 173800,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14ea0f43d097d2e88aea2"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/r8/2014/oem/2014_audi_r8_convertible_v10-quattro-spyder_fq_oem_2_600.jpg",
+		"key": "200703715-1437683360140",
+		"make": "Audi",
+		"model": "R8",
+		"name": "Audi R8",
+		"submodel": "convertible",
+		"trim": "V10 quattro Spyder",
+		"type": "convertible",
+		"values": {
+			"comfort": 7.5,
+			"condition": 9,
+			"fuel_eff": 12,
+			"horsepower": 525,
+			"performance": 8,
+			"price": 166100,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14ea7f43d097d2e88aea4"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/s4/2015/oem/2015_audi_s4_sedan_prestige-quattro_fq_oem_2_600.jpg",
+		"key": "200701953-1437683366217",
+		"make": "Audi",
+		"model": "S4",
+		"name": "Audi S4",
+		"submodel": "sedan",
+		"trim": "Premium Plus quattro",
+		"type": "sedan",
+		"values": {
+			"comfort": 9,
+			"condition": 8,
+			"fuel_eff": 18,
+			"horsepower": 333,
+			"performance": 9,
+			"price": 49800,
+			"safety": "9.00"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14eabf43d097d2e88aea6"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/s4/2014/oem/2014_audi_s4_sedan_premium-plus-quattro_fq_oem_1_600.jpg",
+		"key": "200477578-1437683370732",
+		"make": "Audi",
+		"model": "S4",
+		"name": "Audi S4",
+		"submodel": "sedan",
+		"trim": "Premium Plus quattro",
+		"type": "sedan",
+		"values": {
+			"comfort": 9,
+			"condition": 8,
+			"fuel_eff": 17,
+			"horsepower": 333,
+			"performance": 9,
+			"price": 48100,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14eaff43d097d2e88aea8"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/s5/2013/oem/2013_audi_s5_coupe_premium-plus-quattro_fq_oem_1_600.jpg",
+		"key": "200722369-1437683375392",
+		"make": "Audi",
+		"model": "S5",
+		"name": "Audi S5",
+		"submodel": "coupe",
+		"trim": "Prestige quattro",
+		"type": "coupe",
+		"values": {
+			"comfort": 8,
+			"condition": 9,
+			"fuel_eff": 18,
+			"horsepower": 333,
+			"performance": 9.5,
+			"price": 59650,
+			"safety": "9.50"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14eb3f43d097d2e88aeaa"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/s5/2015/oem/2015_audi_s5_coupe_prestige-quattro_fq_oem_1_600.jpg",
+		"key": "200702461-1437683379021",
+		"make": "Audi",
+		"model": "S5",
+		"name": "Audi S5",
+		"submodel": "coupe",
+		"trim": "Premium Plus quattro",
+		"type": "coupe",
+		"values": {
+			"comfort": 8,
+			"condition": 8,
+			"fuel_eff": 17,
+			"horsepower": 333,
+			"performance": 9.5,
+			"price": 52500,
+			"safety": "9.50"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14eb7f43d097d2e88aeac"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/s6/2013/oem/2013_audi_s6_sedan_prestige_fq_oem_1_600.jpg",
+		"key": "200703126-1437683382618",
+		"make": "Audi",
+		"model": "S6",
+		"name": "Audi S6",
+		"submodel": "sedan",
+		"trim": "quattro",
+		"type": "sedan",
+		"values": {
+			"comfort": 8,
+			"condition": 9,
+			"fuel_eff": 17,
+			"horsepower": 420,
+			"performance": 9.5,
+			"price": 75500,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14ebaf43d097d2e88aeae"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/s6/2013/oem/2013_audi_s6_sedan_prestige_fq_oem_1_600.jpg",
+		"key": "200478415-1437683386177",
+		"make": "Audi",
+		"model": "S6",
+		"name": "Audi S6",
+		"submodel": "sedan",
+		"trim": "quattro",
+		"type": "sedan",
+		"values": {
+			"comfort": 8,
+			"condition": 8,
+			"fuel_eff": 17,
+			"horsepower": 420,
+			"performance": 9.5,
+			"price": 73400,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14ebff43d097d2e88aeb0"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/s7/2013/oem/2013_audi_s7_sedan_prestige_fq_oem_8_600.jpg",
+		"key": "200479594-1437683391009",
+		"make": "Audi",
+		"model": "S7",
+		"name": "Audi S7",
+		"submodel": "sedan",
+		"trim": "quattro",
+		"type": "sedan",
+		"values": {
+			"comfort": 8,
+			"condition": 9,
+			"fuel_eff": 17,
+			"horsepower": 420,
+			"performance": 9.5,
+			"price": 80200,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14ec4f43d097d2e88aeb2"
+		},
+		"image": "http://media.ed.edmunds-media.com/audi/s7/2015/oem/2015_audi_s7_sedan_quattro_fq_oem_2_600.jpg",
+		"key": "200703285-1437683394682",
+		"make": "Audi",
+		"model": "S7",
+		"name": "Audi S7",
+		"submodel": "sedan",
+		"trim": "quattro",
+		"type": "sedan",
+		"values": {
+			"comfort": 8,
+			"condition": 8,
+			"fuel_eff": 17,
+			"horsepower": 420,
+			"performance": 9.5,
+			"price": 82500,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14ed0f43d097d2e88aeb4"
+		},
+		"image": "http://media.ed.edmunds-media.com/buick/enclave/2015/oem/2015_buick_enclave_4dr-suv_premium-group_fq_oem_6_600.jpg",
+		"key": "200700850-1437683407868",
+		"make": "Buick",
+		"model": "Enclave",
+		"name": "Buick Enclave",
+		"submodel": "suv",
+		"trim": "Premium Group",
+		"type": "suv",
+		"values": {
+			"comfort": 8,
+			"condition": 9,
+			"fuel_eff": 16,
+			"horsepower": 288,
+			"performance": 9.5,
+			"price": 49305,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14ed4f43d097d2e88aeb6"
+		},
+		"image": "http://media.ed.edmunds-media.com/buick/enclave/2014/oem/2014_buick_enclave_4dr-suv_premium-group_fq_oem_3_600.jpg",
+		"key": "200474992-1437683411728",
+		"make": "Buick",
+		"model": "Enclave",
+		"name": "Buick Enclave",
+		"submodel": "suv",
+		"trim": "Premium Group",
+		"type": "suv",
+		"values": {
+			"comfort": 8,
+			"condition": 9,
+			"fuel_eff": 16,
+			"horsepower": 288,
+			"performance": 7,
+			"price": 48465,
+			"safety": "6.75"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14edaf43d097d2e88aeb8"
+		},
+		"image": "http://media.ed.edmunds-media.com/buick/lacrosse/2014/oem/2014_buick_lacrosse_sedan_premium-2-group_fq_oem_2_600.jpg",
+		"key": "200478758-1437683418321",
+		"make": "Buick",
+		"model": "Lacrosse",
+		"name": "Buick Lacrosse",
+		"submodel": "sedan",
+		"trim": "Premium II Group",
+		"type": "sedan",
+		"values": {
+			"comfort": 7.5,
+			"condition": 8,
+			"fuel_eff": 18,
+			"horsepower": 303,
+			"performance": 7,
+			"price": 39755,
+			"safety": "7.00"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14eddf43d097d2e88aeba"
+		},
+		"image": "http://media.ed.edmunds-media.com/buick/lacrosse/2015/oem/2015_buick_lacrosse_sedan_premium-ii-group_fq_oem_1_600.jpg",
+		"key": "200705497-1437683421365",
+		"make": "Buick",
+		"model": "Lacrosse",
+		"name": "Buick Lacrosse",
+		"submodel": "sedan",
+		"trim": "Leather Group",
+		"type": "sedan",
+		"values": {
+			"comfort": 7.5,
+			"condition": 10,
+			"fuel_eff": 17,
+			"horsepower": 304,
+			"performance": 7,
+			"price": 38730,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14f00f43d097d2e88aebc"
+		},
+		"image": "http://media.ed.edmunds-media.com/cadillac/ats/2013/oem/2013_cadillac_ats_sedan_premium_fq_oem_2_600.jpg",
+		"key": "200479727-1437683455777",
+		"make": "Cadillac",
+		"model": "ATS",
+		"name": "Cadillac ATS",
+		"submodel": "sedan",
+		"trim": "Standard",
+		"type": "sedan",
+		"values": {
+			"comfort": 7,
+			"condition": 10,
+			"fuel_eff": 21,
+			"horsepower": 272,
+			"performance": 7.5,
+			"price": 35095,
+			"safety": "8.25"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14f02f43d097d2e88aebe"
+		},
+		"image": "http://media.ed.edmunds-media.com/cadillac/ats/2015/oem/2015_cadillac_ats_sedan_performance_fq_oem_1_600.jpg",
+		"key": "200706308-1437683458337",
+		"make": "Cadillac",
+		"model": "ATS",
+		"name": "Cadillac ATS",
+		"submodel": "sedan",
+		"trim": "Performance",
+		"type": "sedan",
+		"values": {
+			"comfort": 7,
+			"condition": 8,
+			"fuel_eff": 21,
+			"horsepower": 272,
+			"performance": 7.5,
+			"price": 42660,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14f07f43d097d2e88aec0"
+		},
+		"image": "http://media.ed.edmunds-media.com/cadillac/cts/2015/oem/2015_cadillac_cts_sedan_performance_fq_oem_1_600.jpg",
+		"key": "200712865-1437683463138",
+		"make": "Cadillac",
+		"model": "CTS",
+		"name": "Cadillac CTS",
+		"submodel": "sedan",
+		"trim": "Standard",
+		"type": "sedan",
+		"values": {
+			"comfort": 7,
+			"condition": 8,
+			"fuel_eff": 20,
+			"horsepower": 272,
+			"performance": 7.5,
+			"price": 45345,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14f09f43d097d2e88aec2"
+		},
+		"image": "http://media.ed.edmunds-media.com/cadillac/cts/2014/oem/2014_cadillac_cts_sedan_premium_fq_oem_3_600.jpg",
+		"key": "200480062-1437683465656",
+		"make": "Cadillac",
+		"model": "CTS",
+		"name": "Cadillac CTS",
+		"submodel": "sedan",
+		"trim": "Luxury",
+		"type": "sedan",
+		"values": {
+			"comfort": 7,
+			"condition": 9,
+			"fuel_eff": 19,
+			"horsepower": 272,
+			"performance": 7.5,
+			"price": 53000,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14f22f43d097d2e88aec4"
+		},
+		"image": "http://media.ed.edmunds-media.com/cadillac/srx/2013/oem/2013_cadillac_srx_4dr-suv_premium_fq_oem_1_600.jpg",
+		"key": "200704348-1437683490695",
+		"make": "Cadillac",
+		"model": "SRX",
+		"name": "Cadillac SRX",
+		"submodel": "suv",
+		"trim": "Premium",
+		"type": "suv",
+		"values": {
+			"comfort": 7,
+			"condition": 10,
+			"fuel_eff": 17,
+			"horsepower": 308,
+			"performance": 7.5,
+			"price": 48920,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14f25f43d097d2e88aec6"
+		},
+		"image": "http://media.ed.edmunds-media.com/cadillac/srx/2013/oem/2013_cadillac_srx_4dr-suv_premium_fq_oem_1_600.jpg",
+		"key": "200481256-1437683493269",
+		"make": "Cadillac",
+		"model": "SRX",
+		"name": "Cadillac SRX",
+		"submodel": "suv",
+		"trim": "Performance",
+		"type": "suv",
+		"values": {
+			"comfort": 7,
+			"condition": 10,
+			"fuel_eff": 16,
+			"horsepower": 308,
+			"performance": 7.5,
+			"price": 48065,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14f32f43d097d2e88aec8"
+		},
+		"image": "http://media.ed.edmunds-media.com/cadillac/xts/2013/oem/2013_cadillac_xts_sedan_luxury_fq_oem_2_600.jpg",
+		"key": "200477010-1437683505822",
+		"make": "Cadillac",
+		"model": "XTS",
+		"name": "Cadillac XTS",
+		"submodel": "sedan",
+		"trim": "Vsport Premium",
+		"type": "sedan",
+		"values": {
+			"comfort": 7.5,
+			"condition": 8,
+			"fuel_eff": 16,
+			"horsepower": 410,
+			"performance": 6.5,
+			"price": 62095,
+			"safety": "6.75"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14f34f43d097d2e88aeca"
+		},
+		"image": "http://media.ed.edmunds-media.com/cadillac/xts/2013/oem/2013_cadillac_xts_sedan_luxury_fq_oem_2_600.jpg",
+		"key": "200712900-1437683508218",
+		"make": "Cadillac",
+		"model": "XTS",
+		"name": "Cadillac XTS",
+		"submodel": "sedan",
+		"trim": "Premium",
+		"type": "sedan",
+		"values": {
+			"comfort": 7.5,
+			"condition": 10,
+			"fuel_eff": 18,
+			"horsepower": 304,
+			"performance": 6.5,
+			"price": 54670,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14f45f43d097d2e88aecc"
+		},
+		"image": "http://media.ed.edmunds-media.com/chevrolet/colorado/2015/oem/2015_chevrolet_colorado_crew-cab-pickup_z71_fq_oem_1_600.jpg",
+		"key": "200710773-1437683525421",
+		"make": "Chevrolet",
+		"model": "Colorado",
+		"name": "Chevrolet Colorado",
+		"submodel": "crew-cab",
+		"trim": "LT",
+		"type": "crew cab",
+		"values": {
+			"comfort": 8.5,
+			"condition": 10,
+			"fuel_eff": 17,
+			"horsepower": 305,
+			"performance": 8.5,
+			"price": 32085,
+			"safety": "8.00"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14f47f43d097d2e88aece"
+		},
+		"image": "http://media.ed.edmunds-media.com/chevrolet/colorado/2015/oem/2015_chevrolet_colorado_crew-cab-pickup_z71_fq_oem_1_600.jpg",
+		"key": "200710771-1437683527221",
+		"make": "Chevrolet",
+		"model": "Colorado",
+		"name": "Chevrolet Colorado",
+		"submodel": "crew-cab",
+		"trim": "Z71",
+		"type": "crew cab",
+		"values": {
+			"comfort": 8.5,
+			"condition": 8,
+			"fuel_eff": 18,
+			"horsepower": 305,
+			"performance": 8.5,
+			"price": 30785,
+			"safety": "8.00"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14f4af43d097d2e88aed0"
+		},
+		"image": "http://media.ed.edmunds-media.com/chevrolet/cruze/2015/oem/2015_chevrolet_cruze_sedan_ltz_fq_oem_3_600.jpg",
+		"key": "200717327-1437683530696",
+		"make": "Chevrolet",
+		"model": "Cruze",
+		"name": "Chevrolet Cruze",
+		"submodel": "sedan",
+		"trim": "1LT",
+		"type": "sedan",
+		"values": {
+			"comfort": 8.5,
+			"condition": 9,
+			"fuel_eff": 26,
+			"horsepower": 138,
+			"performance": 8.5,
+			"price": 19065,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14f4df43d097d2e88aed2"
+		},
+		"image": "http://media.ed.edmunds-media.com/chevrolet/cruze/2013/oem/2013_chevrolet_cruze_sedan_2lt_fq_oem_1_600.jpg",
+		"key": "200473144-1437683533184",
+		"make": "Chevrolet",
+		"model": "Cruze",
+		"name": "Chevrolet Cruze",
+		"submodel": "sedan",
+		"trim": "LS",
+		"type": "sedan",
+		"values": {
+			"comfort": 7.5,
+			"condition": 10,
+			"fuel_eff": 25,
+			"horsepower": 138,
+			"performance": 7,
+			"price": 17520,
+			"safety": "7.50"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14f51f43d097d2e88aed4"
+		},
+		"image": "http://media.ed.edmunds-media.com/chevrolet/equinox/2014/oem/2014_chevrolet_equinox_4dr-suv_ltz_fq_oem_2_600.jpg",
+		"key": "200478055-1437683537039",
+		"make": "Chevrolet",
+		"model": "Equinox",
+		"name": "Chevrolet Equinox",
+		"submodel": "suv",
+		"trim": "LT",
+		"type": "suv",
+		"values": {
+			"comfort": 7.5,
+			"condition": 8,
+			"fuel_eff": 20,
+			"horsepower": 182,
+			"performance": 7,
+			"price": 27755,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14f54f43d097d2e88aed6"
+		},
+		"image": "http://media.ed.edmunds-media.com/chevrolet/equinox/2014/oem/2014_chevrolet_equinox_4dr-suv_ltz_fq_oem_2_600.jpg",
+		"key": "200708748-1437683539926",
+		"make": "Chevrolet",
+		"model": "Equinox",
+		"name": "Chevrolet Equinox",
+		"submodel": "suv",
+		"trim": "LS",
+		"type": "suv",
+		"values": {
+			"comfort": 7.5,
+			"condition": 9,
+			"fuel_eff": 22,
+			"horsepower": 182,
+			"performance": 7,
+			"price": 24520,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14f6ef43d097d2e88aed8"
+		},
+		"image": "http://media.ed.edmunds-media.com/chevrolet/tahoe/2013/oem/2013_chevrolet_tahoe_4dr-suv_ltz_fq_oem_1_600.jpg",
+		"key": "200479385-1437683566118",
+		"make": "Chevrolet",
+		"model": "Tahoe",
+		"name": "Chevrolet Tahoe",
+		"submodel": "suv",
+		"trim": "LS",
+		"type": "suv",
+		"values": {
+			"comfort": 7.5,
+			"condition": 10,
+			"fuel_eff": 15,
+			"horsepower": 320,
+			"performance": 7,
+			"price": 41600,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14f71f43d097d2e88aeda"
+		},
+		"image": "http://media.ed.edmunds-media.com/chevrolet/tahoe/2015/oem/2015_chevrolet_tahoe_4dr-suv_ltz_fq_oem_3_600.jpg",
+		"key": "200674804-1437683569401",
+		"make": "Chevrolet",
+		"model": "Tahoe",
+		"name": "Chevrolet Tahoe",
+		"submodel": "suv",
+		"trim": "LS",
+		"type": "suv",
+		"values": {
+			"comfort": 7.5,
+			"condition": 8,
+			"fuel_eff": 16,
+			"horsepower": 355,
+			"performance": 6.5,
+			"price": 49300,
+			"safety": "6.00"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14f76f43d097d2e88aedc"
+		},
+		"image": "http://media.ed.edmunds-media.com/chevrolet/traverse/2013/oem/2013_chevrolet_traverse_4dr-suv_ltz_fq_oem_2_600.jpg",
+		"key": "200696694-1437683574733",
+		"make": "Chevrolet",
+		"model": "Traverse",
+		"name": "Chevrolet Traverse",
+		"submodel": "suv",
+		"trim": "LT",
+		"type": "suv",
+		"values": {
+			"comfort": 7.5,
+			"condition": 8,
+			"fuel_eff": 17,
+			"horsepower": 281,
+			"performance": 6.5,
+			"price": 33795,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14f7af43d097d2e88aede"
+		},
+		"image": "http://media.ed.edmunds-media.com/chevrolet/traverse/2013/oem/2013_chevrolet_traverse_4dr-suv_ltz_fq_oem_2_600.jpg",
+		"key": "200474631-1437683578215",
+		"make": "Chevrolet",
+		"model": "Traverse",
+		"name": "Chevrolet Traverse",
+		"submodel": "suv",
+		"trim": "LT",
+		"type": "suv",
+		"values": {
+			"comfort": 8.5,
+			"condition": 9,
+			"fuel_eff": 16,
+			"horsepower": 281,
+			"performance": 7.5,
+			"price": 36010,
+			"safety": "8.00"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14f81f43d097d2e88aee0"
+		},
+		"image": "http://media.ed.edmunds-media.com/chevrolet/volt/2013/oem/2013_chevrolet_volt_4dr-hatchback_base_fq_oem_3_600.jpg",
+		"key": "200485728-1437683584828",
+		"make": "Chevrolet",
+		"model": "Volt",
+		"name": "Chevrolet Volt",
+		"submodel": "hatchback",
+		"trim": "Base",
+		"type": "hybrid",
+		"values": {
+			"comfort": 8.5,
+			"condition": 9,
+			"fuel_eff": 99,
+			"horsepower": 149,
+			"performance": 7.5,
+			"price": 34185,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14f82f43d097d2e88aee2"
+		},
+		"image": "http://media.ed.edmunds-media.com/chevrolet/volt/2013/oem/2013_chevrolet_volt_4dr-hatchback_base_fq_oem_3_600.jpg",
+		"key": "200485728-1437683586130",
+		"make": "Chevrolet",
+		"model": "Volt",
+		"name": "Chevrolet Volt",
+		"submodel": "hatchback",
+		"trim": "Base",
+		"type": "hybrid",
+		"values": {
+			"comfort": 8.5,
+			"condition": 10,
+			"fuel_eff": 99,
+			"horsepower": 149,
+			"performance": 7.5,
+			"price": 34185,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14f84f43d097d2e88aee4"
+		},
+		"image": "http://media.ed.edmunds-media.com/chevrolet/volt/2013/oem/2013_chevrolet_volt_4dr-hatchback_base_fq_oem_3_600.jpg",
+		"key": "200704092-1437683588424",
+		"make": "Chevrolet",
+		"model": "Volt",
+		"name": "Chevrolet Volt",
+		"submodel": "hatchback",
+		"trim": "Base",
+		"type": "hybrid",
+		"values": {
+			"comfort": 8.5,
+			"condition": 10,
+			"fuel_eff": 99,
+			"horsepower": 149,
+			"performance": 7.5,
+			"price": 34170,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14f91f43d097d2e88aee6"
+		},
+		"image": "http://media.ed.edmunds-media.com/chrysler/300/2014/oem/2014_chrysler_300_sedan_base_fq_oem_1_600.jpg",
+		"key": "200477957-1437683601149",
+		"make": "Chrysler",
+		"model": "300",
+		"name": "Chrysler 300",
+		"submodel": "sedan",
+		"trim": "Base",
+		"type": "sedan",
+		"values": {
+			"comfort": 8.5,
+			"condition": 10,
+			"fuel_eff": 19,
+			"horsepower": 292,
+			"performance": 7,
+			"price": 31395,
+			"safety": "6.00"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14f97f43d097d2e88aee8"
+		},
+		"image": "http://media.ed.edmunds-media.com/chrysler/300/2015/oem/2015_chrysler_300_sedan_c-platinum_fq_oem_11_600.jpg",
+		"key": "200725574-1437683605026",
+		"make": "Chrysler",
+		"model": "300",
+		"name": "Chrysler 300",
+		"submodel": "sedan",
+		"trim": "C",
+		"type": "sedan",
+		"values": {
+			"comfort": 7,
+			"condition": 8,
+			"fuel_eff": 18,
+			"horsepower": 292,
+			"performance": 6.5,
+			"price": 40570,
+			"safety": "5.25"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14fc2f43d097d2e88aeea"
+		},
+		"image": "http://media.ed.edmunds-media.com/dodge/challenger/2015/oem/2015_dodge_challenger_coupe_sxt-plus_fq_oem_1_600.jpg",
+		"key": "200705171-1437683650487",
+		"make": "Dodge",
+		"model": "Challenger",
+		"name": "Dodge Challenger",
+		"submodel": "coupe",
+		"trim": "SXT Plus",
+		"type": "coupe",
+		"values": {
+			"comfort": 7,
+			"condition": 9,
+			"fuel_eff": 19,
+			"horsepower": 305,
+			"performance": 6.5,
+			"price": 29995,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b14fc6f43d097d2e88aeec"
+		},
+		"image": "http://media.ed.edmunds-media.com/dodge/challenger/2012/oem/2012_dodge_challenger_coupe_rt_fq_oem_8_600.jpg",
+		"key": "200478087-1437683653795",
+		"make": "Dodge",
+		"model": "Challenger",
+		"name": "Dodge Challenger",
+		"submodel": "coupe",
+		"trim": "R/T",
+		"type": "coupe",
+		"values": {
+			"comfort": 7,
+			"condition": 10,
+			"fuel_eff": 15,
+			"horsepower": 375,
+			"performance": 6.5,
+			"price": 30495,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14fd9f43d097d2e88aeee"
+		},
+		"image": "http://media.ed.edmunds-media.com/dodge/journey/2013/oem/2013_dodge_journey_4dr-suv_crew_fq_oem_1_600.jpg",
+		"key": "200480114-1437683673037",
+		"make": "Dodge",
+		"model": "Journey",
+		"name": "Dodge Journey",
+		"submodel": "suv",
+		"trim": "R/T",
+		"type": "suv",
+		"values": {
+			"comfort": 8,
+			"condition": 9,
+			"fuel_eff": 16,
+			"horsepower": 283,
+			"performance": 6,
+			"price": 30895,
+			"safety": "6.50"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b14fdcf43d097d2e88aef0"
+		},
+		"image": "http://media.ed.edmunds-media.com/dodge/journey/2013/oem/2013_dodge_journey_4dr-suv_crew_fq_oem_1_600.jpg",
+		"key": "200700345-1437683675885",
+		"make": "Dodge",
+		"model": "Journey",
+		"name": "Dodge Journey",
+		"submodel": "suv",
+		"trim": "R/T",
+		"type": "suv",
+		"values": {
+			"comfort": 8,
+			"condition": 8,
+			"fuel_eff": 17,
+			"horsepower": 283,
+			"performance": 6,
+			"price": 31395,
+			"safety": "6.50"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b1500ef43d097d2e88aef2"
+		},
+		"image": "http://media.ed.edmunds-media.com/dodge/viper/2015/oem/2015_dodge_viper_coupe_srt_fq_oem_5_600.jpg",
+		"key": "200722560-1437683726352",
+		"make": "Dodge",
+		"model": "Viper",
+		"name": "Dodge Viper",
+		"submodel": "coupe",
+		"trim": "GT",
+		"type": "coupe",
+		"values": {
+			"comfort": 8,
+			"condition": 8,
+			"fuel_eff": 12,
+			"horsepower": 645,
+			"performance": 6,
+			"price": 94995,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b1501cf43d097d2e88aef4"
+		},
+		"image": "http://media.ed.edmunds-media.com/ford/edge/2015/oem/2015_ford_edge_4dr-suv_titanium_fq_oem_1_600.jpg",
+		"key": "200720166-1437683740643",
+		"make": "Ford",
+		"model": "Edge",
+		"name": "Ford Edge",
+		"submodel": "suv",
+		"trim": "Titanium",
+		"type": "suv",
+		"values": {
+			"comfort": 8,
+			"condition": 8,
+			"fuel_eff": 20,
+			"horsepower": 245,
+			"performance": 6,
+			"price": 37595,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b15020f43d097d2e88aef6"
+		},
+		"image": "http://media.ed.edmunds-media.com/ford/edge/2013/oem/2013_ford_edge_4dr-suv_limited_fq_oem_1_600.jpg",
+		"key": "200492830-1437683743738",
+		"make": "Ford",
+		"model": "Edge",
+		"name": "Ford Edge",
+		"submodel": "suv",
+		"trim": "SE",
+		"type": "suv",
+		"values": {
+			"comfort": 8,
+			"condition": 10,
+			"fuel_eff": 19,
+			"horsepower": 285,
+			"performance": 7.5,
+			"price": 28100,
+			"safety": "7.50"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b15023f43d097d2e88aef8"
+		},
+		"image": "http://media.ed.edmunds-media.com/ford/escape/2014/oem/2014_ford_escape_4dr-suv_se_fq_oem_1_600.jpg",
+		"key": "200466872-1437683747091",
+		"make": "Ford",
+		"model": "Escape",
+		"name": "Ford Escape",
+		"submodel": "suv",
+		"trim": "SE",
+		"type": "suv",
+		"values": {
+			"comfort": 7.5,
+			"condition": 10,
+			"fuel_eff": 23,
+			"horsepower": 173,
+			"performance": 7.5,
+			"price": 25550,
+			"safety": "7.75"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b15026f43d097d2e88aefa"
+		},
+		"image": "http://media.ed.edmunds-media.com/ford/escape/2015/oem/2015_ford_escape_4dr-suv_titanium_fq_oem_4_600.jpg",
+		"key": "200702170-1437683750171",
+		"make": "Ford",
+		"model": "Escape",
+		"name": "Ford Escape",
+		"submodel": "suv",
+		"trim": "Titanium",
+		"type": "suv",
+		"values": {
+			"comfort": 7.5,
+			"condition": 8,
+			"fuel_eff": 23,
+			"horsepower": 178,
+			"performance": 7.5,
+			"price": 29735,
+			"safety": "7.75"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b15040f43d097d2e88aefc"
+		},
+		"image": "http://media.ed.edmunds-media.com/ford/fiesta/2014/oem/2014_ford_fiesta_sedan_titanium_fq_oem_1_600.jpg",
+		"key": "200466537-1437683774731",
+		"make": "Ford",
+		"model": "Fiesta",
+		"name": "Ford Fiesta",
+		"submodel": "sedan",
+		"trim": "Titanium",
+		"type": "sedan",
+		"values": {
+			"comfort": 8,
+			"condition": 10,
+			"fuel_eff": 28,
+			"horsepower": 120,
+			"performance": 8,
+			"price": 18300,
+			"safety": "8.25"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b15044f43d097d2e88aefe"
+		},
+		"image": "http://media.ed.edmunds-media.com/ford/fiesta/2014/oem/2014_ford_fiesta_sedan_titanium_fq_oem_1_600.jpg",
+		"key": "200692521-1437683780490",
+		"make": "Ford",
+		"model": "Fiesta",
+		"name": "Ford Fiesta",
+		"submodel": "sedan",
+		"trim": "S",
+		"type": "sedan",
+		"values": {
+			"comfort": 8,
+			"condition": 8,
+			"fuel_eff": 28,
+			"horsepower": 120,
+			"performance": 8,
+			"price": 14455,
+			"safety": "8.25"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b15048f43d097d2e88af00"
+		},
+		"image": "http://media.ed.edmunds-media.com/ford/flex/2014/oem/2014_ford_flex_wagon_limited_fq_oem_1_600.jpg",
+		"key": "200714522-1437683783663",
+		"make": "Ford",
+		"model": "Flex",
+		"name": "Ford Flex",
+		"submodel": "wagon",
+		"trim": "Limited",
+		"type": "wagon",
+		"values": {
+			"comfort": 8,
+			"condition": 8,
+			"fuel_eff": 18,
+			"horsepower": 287,
+			"performance": 8,
+			"price": 37700,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b1504bf43d097d2e88af02"
+		},
+		"image": "http://media.ed.edmunds-media.com/ford/focus/2015/oem/2015_ford_focus_sedan_se_fq_oem_2_600.jpg",
+		"key": "200714333-1437683787129",
+		"make": "Ford",
+		"model": "Focus",
+		"name": "Ford Focus",
+		"submodel": "sedan",
+		"trim": "SE",
+		"type": "sedan",
+		"values": {
+			"comfort": 8,
+			"condition": 9,
+			"fuel_eff": 26,
+			"horsepower": 160,
+			"performance": 7,
+			"price": 18460,
+			"safety": "7.75"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b1504ff43d097d2e88af04"
+		},
+		"image": "http://media.ed.edmunds-media.com/ford/focus/2013/oem/2013_ford_focus_sedan_titanium_fq_oem_1_600.jpg",
+		"key": "200473301-1437683790485",
+		"make": "Ford",
+		"model": "Focus",
+		"name": "Ford Focus",
+		"submodel": "sedan",
+		"trim": "Titanium",
+		"type": "sedan",
+		"values": {
+			"comfort": 7.5,
+			"condition": 10,
+			"fuel_eff": 26,
+			"horsepower": 160,
+			"performance": 8.5,
+			"price": 23565,
+			"safety": "8.00"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b15053f43d097d2e88af06"
+		},
+		"image": "http://media.ed.edmunds-media.com/ford/fusion/2014/oem/2014_ford_fusion_sedan_titanium_fq_oem_2_600.jpg",
+		"key": "200468415-1437683795167",
+		"make": "Ford",
+		"model": "Fusion",
+		"name": "Ford Fusion",
+		"submodel": "sedan",
+		"trim": "Titanium",
+		"type": "sedan",
+		"values": {
+			"comfort": 9,
+			"condition": 10,
+			"fuel_eff": 22,
+			"horsepower": 231,
+			"performance": 8.5,
+			"price": 32600,
+			"safety": "8.00"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b15056f43d097d2e88af08"
+		},
+		"image": "http://media.ed.edmunds-media.com/ford/fusion/2014/oem/2014_ford_fusion_sedan_se_fq_oem_1_600.jpg",
+		"key": "200697195-1437683798012",
+		"make": "Ford",
+		"model": "Fusion",
+		"name": "Ford Fusion",
+		"submodel": "sedan",
+		"trim": "SE",
+		"type": "sedan",
+		"values": {
+			"comfort": 9,
+			"condition": 10,
+			"fuel_eff": 22,
+			"horsepower": 175,
+			"performance": 8.5,
+			"price": 24035,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b15069f43d097d2e88af0a"
+		},
+		"image": "http://media.ed.edmunds-media.com/honda/accord/2015/oem/2015_honda_accord_sedan_lx_fq_oem_2_600.jpg",
+		"key": "200709386-1437683816613",
+		"make": "Honda",
+		"model": "Accord",
+		"name": "Honda Accord",
+		"submodel": "sedan",
+		"trim": "LX",
+		"type": "sedan",
+		"values": {
+			"comfort": 9,
+			"condition": 10,
+			"fuel_eff": 27,
+			"horsepower": 185,
+			"performance": 8.5,
+			"price": 22905,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b15070f43d097d2e88af0c"
+		},
+		"image": "http://media.ed.edmunds-media.com/honda/civic/2014/oem/2014_honda_civic_coupe_si_fq_oem_1_600.jpg",
+		"key": "200690294-1437683823621",
+		"make": "Honda",
+		"model": "Civic",
+		"name": "Honda Civic",
+		"submodel": "si",
+		"trim": "Si",
+		"type": "coupe",
+		"values": {
+			"comfort": 8,
+			"condition": 9,
+			"fuel_eff": 22,
+			"horsepower": 205,
+			"performance": 9,
+			"price": 22790,
+			"safety": "8.75"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b15073f43d097d2e88af0e"
+		},
+		"image": "http://media.ed.edmunds-media.com/honda/cr-v/2012/oem/2012_honda_cr-v_4dr-suv_ex-l_fq_oem_12_600.jpg",
+		"key": "200484884-1437683827600",
+		"make": "Honda",
+		"model": "CRV",
+		"name": "Honda CRV",
+		"submodel": "suv",
+		"trim": "LX",
+		"type": "suv",
+		"values": {
+			"comfort": 8,
+			"condition": 9,
+			"fuel_eff": 22,
+			"horsepower": 185,
+			"performance": 9,
+			"price": 24370,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b15076f43d097d2e88af10"
+		},
+		"image": "http://media.ed.edmunds-media.com/honda/cr-v/2015/oem/2015_honda_cr-v_4dr-suv_touring_fq_oem_3_600.jpg",
+		"key": "200716455-1437683829985",
+		"make": "Honda",
+		"model": "CRV",
+		"name": "Honda CRV",
+		"submodel": "suv",
+		"trim": "EX",
+		"type": "suv",
+		"values": {
+			"comfort": 8,
+			"condition": 9,
+			"fuel_eff": 26,
+			"horsepower": 185,
+			"performance": 9,
+			"price": 26795,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b1507ef43d097d2e88af12"
+		},
+		"image": "http://media.ed.edmunds-media.com/honda/crosstour/2013/oem/2013_honda_crosstour_4dr-hatchback_ex-l_fq_oem_1_600.jpg",
+		"key": "200712329-1437683837758",
+		"make": "Honda",
+		"model": "Crosstour",
+		"name": "Honda Crosstour",
+		"submodel": "hatchback",
+		"trim": "EX-L V6",
+		"type": "hatchback",
+		"values": {
+			"comfort": 8,
+			"condition": 9,
+			"fuel_eff": 19,
+			"horsepower": 278,
+			"performance": 9,
+			"price": 35290,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b15081f43d097d2e88af14"
+		},
+		"image": "http://media.ed.edmunds-media.com/honda/crosstour/2013/oem/2013_honda_crosstour_4dr-hatchback_ex-l_fq_oem_1_600.jpg",
+		"key": "200491358-1437683841033",
+		"make": "Honda",
+		"model": "Crosstour",
+		"name": "Honda Crosstour",
+		"submodel": "hatchback",
+		"trim": "EX-L w/Navigation",
+		"type": "hatchback",
+		"values": {
+			"comfort": 8,
+			"condition": 10,
+			"fuel_eff": 19,
+			"horsepower": 278,
+			"performance": 9,
+			"price": 37240,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b1508bf43d097d2e88af16"
+		},
+		"image": "http://media.ed.edmunds-media.com/honda/fit/2015/oem/2015_honda_fit_4dr-hatchback_ex-l_fq_oem_2_600.jpg",
+		"key": "200692509-1437683850629",
+		"make": "Honda",
+		"model": "Fit",
+		"name": "Honda Fit",
+		"submodel": "hatchback",
+		"trim": "EX-L",
+		"type": "hatchback",
+		"values": {
+			"comfort": 7.5,
+			"condition": 8,
+			"fuel_eff": 32,
+			"horsepower": 130,
+			"performance": 7.5,
+			"price": 19925,
+			"safety": "7.25"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b15090f43d097d2e88af18"
+		},
+		"image": "http://media.ed.edmunds-media.com/honda/odyssey/2015/oem/2015_honda_odyssey_passenger-minivan_touring-elite_fq_oem_1_600.jpg",
+		"key": "200707734-1437683856120",
+		"make": "Honda",
+		"model": "Odyssey",
+		"name": "Honda Odyssey",
+		"submodel": "minivan",
+		"trim": "EX-L w/Navigation",
+		"type": "minivan",
+		"values": {
+			"comfort": 8.5,
+			"condition": 9,
+			"fuel_eff": 19,
+			"horsepower": 248,
+			"performance": 8,
+			"price": 37775,
+			"safety": "8.50"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b15097f43d097d2e88af1a"
+		},
+		"image": "http://media.ed.edmunds-media.com/honda/odyssey/2014/oem/2014_honda_odyssey_passenger-minivan_touring-elite_fq_oem_1_600.jpg",
+		"key": "200480812-1437683862539",
+		"make": "Honda",
+		"model": "Odyssey",
+		"name": "Honda Odyssey",
+		"submodel": "minivan",
+		"trim": "Touring Elite",
+		"type": "minivan",
+		"values": {
+			"comfort": 8.5,
+			"condition": 9,
+			"fuel_eff": 19,
+			"horsepower": 248,
+			"performance": 8,
+			"price": 44450,
+			"safety": "8.50"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b1509af43d097d2e88af1c"
+		},
+		"image": "http://media.ed.edmunds-media.com/honda/pilot/2013/oem/2013_honda_pilot_4dr-suv_ex-l_fq_oem_1_600.jpg",
+		"key": "200488656-1437683866042",
+		"make": "Honda",
+		"model": "Pilot",
+		"name": "Honda Pilot",
+		"submodel": "suv",
+		"trim": "LX",
+		"type": "suv",
+		"values": {
+			"comfort": 7.5,
+			"condition": 10,
+			"fuel_eff": 17,
+			"horsepower": 250,
+			"performance": 6,
+			"price": 31270,
+			"safety": "6.00"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b1509df43d097d2e88af1e"
+		},
+		"image": "http://media.ed.edmunds-media.com/honda/pilot/2013/oem/2013_honda_pilot_4dr-suv_ex-l_fq_oem_1_600.jpg",
+		"key": "200698687-1437683868959",
+		"make": "Honda",
+		"model": "Pilot",
+		"name": "Honda Pilot",
+		"submodel": "suv",
+		"trim": "EX-L w/Rear Entertainment",
+		"type": "suv",
+		"values": {
+			"comfort": 7.5,
+			"condition": 8,
+			"fuel_eff": 17,
+			"horsepower": 250,
+			"performance": 6,
+			"price": 38570,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b150a2f43d097d2e88af20"
+		},
+		"image": "http://media.ed.edmunds-media.com/honda/ridgeline/2012/oem/2012_honda_ridgeline_crew-cab-pickup_sport_fq_oem_4_600.jpg",
+		"key": "200489100-1437683874409",
+		"make": "Honda",
+		"model": "Ridgeline",
+		"name": "Honda Ridgeline",
+		"submodel": "crew-cab",
+		"trim": "Sport",
+		"type": "crew cab",
+		"values": {
+			"comfort": 7.5,
+			"condition": 10,
+			"fuel_eff": 15,
+			"horsepower": 250,
+			"performance": 6,
+			"price": 30720,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b15133f43d097d2e88af22"
+		},
+		"image": "http://media.ed.edmunds-media.com/hyundai/accent/2013/oem/2013_hyundai_accent_sedan_gls_fq_oem_5_600.jpg",
+		"key": "200496658-1437684018947",
+		"make": "Hyundai",
+		"model": "Accent",
+		"name": "Hyundai Accent",
+		"submodel": "sedan",
+		"trim": "GLS",
+		"type": "sedan",
+		"values": {
+			"comfort": 7.5,
+			"condition": 9,
+			"fuel_eff": 27,
+			"horsepower": 138,
+			"performance": 6,
+			"price": 15645,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b15136f43d097d2e88af24"
+		},
+		"image": "http://media.ed.edmunds-media.com/hyundai/azera/2012/oem/2012_hyundai_azera_sedan_base_fq_oem_3_600.jpg",
+		"key": "200675620-1437684022129",
+		"make": "Hyundai",
+		"model": "Azera",
+		"name": "Hyundai Azera",
+		"submodel": "sedan",
+		"trim": "Base",
+		"type": "sedan",
+		"values": {
+			"comfort": 7,
+			"condition": 9,
+			"fuel_eff": 19,
+			"horsepower": 293,
+			"performance": 7,
+			"price": 31000,
+			"safety": "7.00"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b15147f43d097d2e88af26"
+		},
+		"image": "http://media.ed.edmunds-media.com/hyundai/equus/2014/oem/2014_hyundai_equus_sedan_ultimate_fq_oem_1_600.jpg",
+		"key": "200481968-1437684039146",
+		"make": "Hyundai",
+		"model": "Equus",
+		"name": "Hyundai Equus",
+		"submodel": "sedan",
+		"trim": "Signature",
+		"type": "sedan",
+		"values": {
+			"comfort": 8,
+			"condition": 9,
+			"fuel_eff": 15,
+			"horsepower": 429,
+			"performance": 7.5,
+			"price": 61250,
+			"safety": "6.75"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b1514bf43d097d2e88af28"
+		},
+		"image": "http://media.ed.edmunds-media.com/hyundai/genesis/2013/oem/2013_hyundai_genesis_sedan_50-r-spec_fq_oem_2_600.jpg",
+		"key": "200494126-1437684043121",
+		"make": "Hyundai",
+		"model": "Genesis",
+		"name": "Hyundai Genesis",
+		"submodel": "50-r-spec",
+		"trim": "5.0 R-Spec",
+		"type": "sedan",
+		"values": {
+			"comfort": 8,
+			"condition": 9,
+			"fuel_eff": 15,
+			"horsepower": 429,
+			"performance": 7.5,
+			"price": 47400,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b15150f43d097d2e88af2a"
+		},
+		"image": "http://media.ed.edmunds-media.com/hyundai/santa-fe/2014/oem/2014_hyundai_santa-fe_4dr-suv_limited_fq_oem_12_600.jpg",
+		"key": "200717909-1437684047953",
+		"make": "Hyundai",
+		"model": "Santafe",
+		"name": "Hyundai Santafe",
+		"submodel": "suv",
+		"trim": "Limited",
+		"type": "suv",
+		"values": {
+			"comfort": 8,
+			"condition": 9,
+			"fuel_eff": 18,
+			"horsepower": 290,
+			"performance": 7.5,
+			"price": 34000,
+			"safety": "NA"
+		},
+		"year": "2014"
+	}, {
+		"_id": {
+			"$oid": "55b15159f43d097d2e88af2c"
+		},
+		"image": "http://media.ed.edmunds-media.com/hyundai/sonata/2015/oem/2015_hyundai_sonata_sedan_sport-20t_fq_oem_7_600.jpg",
+		"key": "200698177-1437684056182",
+		"make": "Hyundai",
+		"model": "Sonata",
+		"name": "Hyundai Sonata",
+		"submodel": "sedan",
+		"trim": "Sport",
+		"type": "sedan",
+		"values": {
+			"comfort": 8.5,
+			"condition": 8,
+			"fuel_eff": 24,
+			"horsepower": 185,
+			"performance": 7,
+			"price": 23175,
+			"safety": "7.25"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b1515cf43d097d2e88af2e"
+		},
+		"image": "http://media.ed.edmunds-media.com/hyundai/tucson/2014/oem/2014_hyundai_tucson_4dr-suv_limited_fq_oem_2_600.jpg",
+		"key": "200705616-1437684060406",
+		"make": "Hyundai",
+		"model": "Tucson",
+		"name": "Hyundai Tucson",
+		"submodel": "suv",
+		"trim": "Limited",
+		"type": "suv",
+		"values": {
+			"comfort": 7,
+			"condition": 10,
+			"fuel_eff": 21,
+			"horsepower": 182,
+			"performance": 6.5,
+			"price": 26450,
+			"safety": "6.00"
+		},
+		"year": "2015"
+	}, {
+		"_id": {
+			"$oid": "55b15160f43d097d2e88af30"
+		},
+		"image": "http://media.ed.edmunds-media.com/hyundai/veloster/2015/oem/2015_hyundai_veloster_2dr-hatchback_turbo_fq_oem_3_600.jpg",
+		"key": "200707507-1437684064329",
+		"make": "Hyundai",
+		"model": "Veloster",
+		"name": "Hyundai Veloster",
+		"submodel": "hatchback",
+		"trim": "Turbo",
+		"type": "hatchback",
+		"values": {
+			"comfort": 7,
+			"condition": 9,
+			"fuel_eff": 24,
+			"horsepower": 201,
+			"performance": 6.5,
+			"price": 22600,
+			"safety": "NA"
+		},
+		"year": "2015"
+	}]
+}
