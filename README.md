@@ -1,4 +1,6 @@
-### CoreData
+# CoreData
+
+## 01 Setovanje  Persistent Container -  automatski ili manuelno
 
 Persistent Container se lazy inicijalizuje u AppDelegate
 ```
@@ -28,7 +30,7 @@ Ovo se automatski dobija ako se stiklira CoreData na pocetku projekta,
 ali ako je potrebno naknadno dodati CoreData u projekat onda ubaci ovo u AppDelegate sam. 
 I ukoliko nije vec ubaceno potrebno je self.saveContext() ubaciti u applicationWillTerminate()
 
-# Podesavanja entiteta, atributa i veza
+## 02 Podesavanja entiteta, atributa i veza
 
 atribut koji treba da bude slika
 ![image attribute](https://github.com/Vukovi/Core-Data-Projects/blob/master/02%20Veze%2C%20parsiranje%2C%20async%20request%2C%20agregatne%20fje%2C%20sort%20descriptor%20i%20nspredicate%20-%20Home%20Report/atribut%20slike.png)
