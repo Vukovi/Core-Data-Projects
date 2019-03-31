@@ -32,6 +32,15 @@ I ukoliko nije vec ubaceno potrebno je self.saveContext() ubaciti u applicationW
 
 ## 02 Podesavanja entiteta, atributa i veza
 
+SADRZAJ:
+     Entity relationships (slike), JSON (AppDelegate.uploadSampleData() - 96)
+     Visestruko uklanjanje podataka (AppDelegate.deleteRecords() - 187)
+     Records Searching (Home+CoreDataClass.getHomesByStatus - 23)
+     Fetch One To Many (SaleHistory+CoreDataClass.getSoldHistory - 16)
+     Sort Descriptor & Compound Predicate (FilterTableViewController - didSelectRowAt (57), setSortDescriptor(78), setFilterSearchPredicate(82) | HomeListViewController - loadData(81-94), -prepare(119-120), extension HomeListViewController)
+     Agregatne f-je: sum, count, min, max (Home+CoreDataClass.getTotalHomeSales - 50, Home+CoreDataClass.getNumberCondoSold - 71, Home+CoreDataClass.getNumberSingleFamilyHomeSold - 89, Home+CoreDataClass.getHomePriceSold - 107, Home+CoreDataClass.getAverageHomePrice - 129)
+     Async request (Home+CoreDataClass.getHomesByStatus(19, 23) | HomeListViewController.loadDara(101))
+
 atribut koji treba da bude slika
 ![image attribute](https://github.com/Vukovi/Core-Data-Projects/blob/master/02%20Veze%2C%20parsiranje%2C%20async%20request%2C%20agregatne%20fje%2C%20sort%20descriptor%20i%20nspredicate%20-%20Home%20Report/atribut%20slike.png)
 
