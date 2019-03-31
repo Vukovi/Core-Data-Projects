@@ -33,6 +33,7 @@ I ukoliko nije vec ubaceno potrebno je self.saveContext() ubaciti u applicationW
 ## 02 Podesavanja entiteta, atributa i veza
 
 SADRZAJ:
+     
      Entity relationships (slike), JSON (AppDelegate.uploadSampleData() - 96)
     
      Visestruko uklanjanje podataka (AppDelegate.deleteRecords() - 187)
