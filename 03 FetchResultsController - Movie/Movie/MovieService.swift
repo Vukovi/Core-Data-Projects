@@ -2,8 +2,6 @@
 //  MovieService.swift
 //  Movie
 //
-//  Created by Andi Setiyadi on 9/2/16.
-//  Copyright © 2016 devhubs. All rights reserved.
 //
 
 import Foundation

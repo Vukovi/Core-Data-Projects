@@ -3,7 +3,6 @@
 //  Car InventoryTests
 //
 //  Created by Vuk Knezevic on 3/29/19.
-//  Copyright © 2019 devhubs. All rights reserved.
 //
 
 import XCTest

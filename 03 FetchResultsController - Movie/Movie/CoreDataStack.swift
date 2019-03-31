@@ -2,8 +2,6 @@
 //  CoreDataStack.swift
 //  Home Report
 //
-//  Created by Andi Setiyadi on 8/30/16.
-//  Copyright © 2016 devhubs. All rights reserved.
 //
 
 import Foundation

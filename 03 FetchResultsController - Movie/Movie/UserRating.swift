@@ -2,8 +2,6 @@
 //  UserRating.swift
 //  Movie
 //
-//  Created by Andi Setiyadi on 09/02/16.
-//  Copyright © 2016 devhubs. All rights reserved.
 //
 
 import UIKit

@@ -375,7 +375,7 @@
 				DEVELOPMENT_TEAM = MW4DYSHR2N;
 				INFOPLIST_FILE = Movie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.devhubs.Movie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vuk.Movie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -388,7 +388,7 @@
 				DEVELOPMENT_TEAM = MW4DYSHR2N;
 				INFOPLIST_FILE = Movie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.devhubs.Movie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vuk.Movie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

@@ -2,8 +2,6 @@
 //  HomeListViewController.swift
 //  Home Report
 //
-//  Created by Andi Setiyadi on 9/1/16.
-//  Copyright © 2016 devhubs. All rights reserved.
 //
 
 import UIKit
