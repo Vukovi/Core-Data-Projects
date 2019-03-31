@@ -76,3 +76,24 @@ SADRZAJ:
      Batch Update - MovieTableViewController.updateRatingAction(51), extension(154)
      
      Results Grouping and Cashing - MovieService.swift
+     
+## 04 Poredjenje agregatnih funkcija pretrage
+
+Kada postoje velike slike, to ce za njihovo ucitavnje i prikazivanje trositi i mnogo memorije telefona i mnogo vremena.
+To ce se poporaviti tako sto ce se enitiet koji sadrzi atribut koji je zaduzen za slike malo promeniti, za pocetak preimenovati u npr thumbnails.
+Napravicemo novi entitet koji ce imati samo jedan atribut i to ce biti ta velika slika koja je prethodno bila u "glavnom" entitetu.
+Napravicemo inverzne veze izmedju novog i polaznog entiteta.
+Izmenjeni atribut polaznog entiteta ce dobiti takodje podatak o slici, ali ce ta slika biti umanjena slika originalne slike. 
+Zatim, i dalje ce se sve slike ucitavati odjednom i zato cemo se pozabaviti Incremental-nim fetching-om - CarService.getCarInventory() batchSize
+Ovim je podeseno koliko podataka ce se preuzeti iz baze
+     
+Poredjenje upotrebe agregatnih f-ja pretrage u bazi je uradjeno u CarService.swift i Unit Testing fajlu
+
+pokretanje Instruments-a radi otkrivanja koliko memorije i vremena trosi ucitavanje iz CoreData-e : KORAK 1
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/04%20Poredjenje%20agregatnih%20fja%20-%20Car%20Inventory/Pokretanje%20Instruments.png)
+
+pokretanje Instruments-a radi otkrivanja koliko memorije i vremena trosi ucitavanje iz CoreData-e : KORAK 2
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/04%20Poredjenje%20agregatnih%20fja%20-%20Car%20Inventory/Pokretanje%20Instruments%20radi%20CoreData-e.png)
+
+pokretanje Instruments-a radi otkrivanja koliko memorije i vremena trosi ucitavanje iz CoreData-e : KORAK 3
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/04%20Poredjenje%20agregatnih%20fja%20-%20Car%20Inventory/Instruments%20analiza.png)
