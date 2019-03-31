@@ -97,3 +97,54 @@ pokretanje Instruments-a radi otkrivanja koliko memorije i vremena trosi ucitava
 
 pokretanje Instruments-a radi otkrivanja koliko memorije i vremena trosi ucitavanje iz CoreData-e : KORAK 3
 ![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/04%20Poredjenje%20agregatnih%20fja%20-%20Car%20Inventory/Instruments%20analiza.png)
+
+
+## 05 Migracije i izmene baza u CoreData-i
+
+Leightweight migracija - automatska migracija - slike LW
+Heavyweight migracija - maualna migracija - slike HW + svi komentari u kodu
+
+automatska Lightweight migracija kada Codegen nije podesen na Manual : KORAK 1
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Lightweight%20migration%20-%20promena%20baze%201.png)
+
+automatska Lightweight migracija kada Codegen nije podesen na Manual : KORAK 2
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Lightweight%20migration%20-%20promena%20baze%202.png)
+
+automatska Lightweight migracija kada Codegen nije podesen na Manual : KORAK 3
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Lightweight%20migration%20-%20promena%20baze%203.png)
+
+automatska Lightweight migracija kada Codegen nije podesen na Manual : KORAK 4
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Lightweight%20migration%20-%20promena%20baze%204.png)
+
+manualna (uobicajena) Heavyweight migracija : KORAK 1
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Manual%20migration%201.png)
+
+manualna (uobicajena) Heavyweight migracija : KORAK 2
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Manual%20migration%202.png)
+
+manualna (uobicajena) Heavyweight migracija : KORAK 3
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Manual%20migration%203.png)
+
+manualna (uobicajena) Heavyweight migracija : KORAK 4
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Manual%20migration%204.png)
+
+manualna (uobicajena) Heavyweight migracija : KORAK 5
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Manual%20migration%205.png)
+
+manualna (uobicajena) Heavyweight migracija : KORAK 6
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Manual%20migration%206.png)
+
+manualna (uobicajena) Heavyweight migracija : KORAK 7
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Manual%20migration%207.png)
+
+manualna (uobicajena) Heavyweight migracija : KORAK 8
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Manual%20migration%208.png)
+
+manualna (uobicajena) Heavyweight migracija : KORAK 9
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Manual%20migration%209.png)
+
+manualna (uobicajena) Heavyweight migracija : KORAK 10
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Manual%20migration%2010.png)
+
+manualna (uobicajena) Heavyweight migracija : KORAK 11
+![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Manual%20migration%2011.png)
