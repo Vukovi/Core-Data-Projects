@@ -27,3 +27,8 @@ func saveContext() {
 Ovo se automatski dobija ako se stiklira CoreData na pocetku projekta, 
 ali ako je potrebno naknadno dodati CoreData u projekat onda ubaci ovo u AppDelegate sam. 
 I ukoliko nije vec ubaceno potrebno je self.saveContext() ubaciti u applicationWillTerminate()
+
+# Podesavanja entiteta, atributa i veza
+
+atribut koji treba da bude slika
+![image attribute](https://drive.google.com/file/d/1UKIVXv7keh_102QefblZFPVDlWOUT8pz/view?usp=sharing)
