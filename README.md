@@ -150,3 +150,11 @@ manualna (uobicajena) Heavyweight migracija : KORAK 10
 
 manualna (uobicajena) Heavyweight migracija : KORAK 11
 ![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Manual%20migration%2011.png)
+
+## 06 Upravljanje thread-ovima
+     
+ CoreData background process - regulise uzimanje podataka sa servera i njihovo skladistenje u CD dok je UI blokiran
+     
+ Aplikacija moze da pukne kada se koristi samo jedan MOC za preuzimanje i za cuvanje podataka,
+ zato cu koristiti novi background proces -> PersistentContainer.newBackgroundContext
+ ili stari nacin sa perform metodom ili metodom performAndWait, gde se performAndWait ponasa kao disptchSemaphore
