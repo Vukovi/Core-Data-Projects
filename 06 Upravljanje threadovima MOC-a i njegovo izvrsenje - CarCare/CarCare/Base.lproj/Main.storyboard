@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="CarCare" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RzJ-BW-gpl" userLabel="View-Logo">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sportscar-yellow-launch.png" translatesAutoresizingMaskIntoConstraints="NO" id="3DM-wu-Nh3"/>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="3DM-wu-Nh3" firstAttribute="centerY" secondItem="RzJ-BW-gpl" secondAttribute="centerY" id="62n-ZL-saX"/>
+                                    <constraint firstItem="3DM-wu-Nh3" firstAttribute="centerX" secondItem="RzJ-BW-gpl" secondAttribute="centerX" id="XYV-jj-N27"/>
+                                    <constraint firstItem="3DM-wu-Nh3" firstAttribute="height" secondItem="RzJ-BW-gpl" secondAttribute="height" id="pEe-r1-TkU"/>
+                                    <constraint firstItem="3DM-wu-Nh3" firstAttribute="width" secondItem="RzJ-BW-gpl" secondAttribute="width" id="y7s-6J-aSt"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VuY-rF-lbg" userLabel="View-Menu">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTV-te-15E" userLabel="Button-MY_VEHICLES">
+                                        <color key="backgroundColor" red="0.91764705882352937" green="0.65490196078431373" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="26"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="MY VEHICLES"/>
+                                        <connections>
+                                            <segue destination="R7M-4k-oeK" kind="modal" identifier="segueMyVehicles" modalPresentationStyle="formSheet" modalTransitionStyle="flipHorizontal" id="OBd-WH-ByI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="KTV-te-15E" secondAttribute="trailing" id="S0w-aB-ykI"/>
+                                    <constraint firstItem="KTV-te-15E" firstAttribute="leading" secondItem="VuY-rF-lbg" secondAttribute="leading" id="bGl-56-kQ5"/>
+                                    <constraint firstItem="KTV-te-15E" firstAttribute="height" secondItem="VuY-rF-lbg" secondAttribute="height" multiplier="1:6" id="lfg-Lm-dbP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VuY-rF-lbg" secondAttribute="bottom" id="1nF-7U-la6"/>
+                            <constraint firstItem="VuY-rF-lbg" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="2:3" id="FZW-n5-H4g"/>
+                            <constraint firstItem="RzJ-BW-gpl" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.9:3" id="KTm-43-zUZ"/>
+                            <constraint firstItem="VuY-rF-lbg" firstAttribute="top" secondItem="RzJ-BW-gpl" secondAttribute="bottom" id="bls-iV-PZy"/>
+                            <constraint firstAttribute="trailing" secondItem="VuY-rF-lbg" secondAttribute="trailing" id="e3G-hb-2B7"/>
+                            <constraint firstItem="RzJ-BW-gpl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jCH-Lt-am5"/>
+                            <constraint firstItem="VuY-rF-lbg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="o1c-hw-FRD"/>
+                            <constraint firstAttribute="trailing" secondItem="RzJ-BW-gpl" secondAttribute="trailing" id="tbX-tt-Z6z"/>
+                            <constraint firstItem="KTV-te-15E" firstAttribute="top" secondItem="3DM-wu-Nh3" secondAttribute="bottom" id="y6I-Ic-CxC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="MD9-Vc-vQP"/>
+                    <connections>
+                        <outlet property="addVehicleButton" destination="KTV-te-15E" id="Ujm-Mv-Hd9"/>
+                        <outlet property="mainView" destination="8bC-Xf-vdC" id="3F6-Fx-vcz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="819" y="-916"/>
+        </scene>
+        <!--My Vehicle View Controller-->
+        <scene sceneID="wlQ-LT-RbG">
+            <objects>
+                <viewController id="R7M-4k-oeK" customClass="MyVehicleViewController" customModule="CarCare" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XPn-bm-NgV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pk2-LA-O2Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="m1q-Je-xTv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ofq-UY-FdB">
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <action selector="homeAction:" destination="R7M-4k-oeK" eventType="touchUpInside" id="BpS-Fh-7u9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ofq-UY-FdB" firstAttribute="centerY" secondItem="m1q-Je-xTv" secondAttribute="centerY" id="GTf-Ho-J29"/>
+                            <constraint firstItem="Ofq-UY-FdB" firstAttribute="centerX" secondItem="m1q-Je-xTv" secondAttribute="centerX" id="XQX-Xc-id7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ML5-Pn-aFz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1314" y="-917"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sportscar-yellow-launch.png" width="1007" height="618"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

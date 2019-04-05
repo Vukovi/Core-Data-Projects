@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AutoMaker" representedClassName="AutoMaker" syncable="YES" codeGenerationType="class">
+        <attribute name="make" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="autoModel" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AutoModel" inverseName="autoMaker" inverseEntity="AutoModel" syncable="YES"/>
+    </entity>
+    <entity name="AutoModel" representedClassName="AutoModel" syncable="YES" codeGenerationType="class">
+        <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="autoMaker" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AutoMaker" inverseName="autoModel" inverseEntity="AutoMaker" syncable="YES"/>
+        <relationship name="autoYear" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AutoYear" inverseName="autoModel" inverseEntity="AutoYear" syncable="YES"/>
+    </entity>
+    <entity name="AutoYear" representedClassName="AutoYear" syncable="YES" codeGenerationType="class">
+        <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="autoModel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AutoModel" inverseName="autoYear" inverseEntity="AutoModel" syncable="YES"/>
+    </entity>
+    <entity name="Car" representedClassName="Car" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="make" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AutoMaker" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="AutoModel" positionX="-54" positionY="-9" width="128" height="90"/>
+        <element name="AutoYear" positionX="-36" positionY="9" width="128" height="75"/>
+        <element name="Car" positionX="-18" positionY="54" width="128" height="120"/>
+    </elements>
+</model>
