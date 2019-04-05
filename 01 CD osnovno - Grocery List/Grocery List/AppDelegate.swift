@@ -11,10 +11,14 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var coreData = CoreDataStack()
 
     internal func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        let navController = window?.rootViewController as! UINavigationController
+        let groceryController = navController.topViewController as! GroceryTableViewController
+        groceryController.managedObjectContext = coreData.persistentContainer.viewContext
+        
         return true
     }
 
@@ -39,7 +43,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
-        self.saveContext()
+        
+        // Ne treba mi ovo vise jer sam ubacio instancu CoreDataStack-a, a imam i posebni fajl koji ce obavljati CRUD, dakle cuvanje izmdju ostalog
+//        self.saveContext()
     }
 
     // MARK: - Core Data stack
