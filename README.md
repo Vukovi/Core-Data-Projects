@@ -1,6 +1,6 @@
 # CoreData
 
-## 01 Setovanje  Persistent Container -  automatski ili manuelno
+## 01 Setovanje  Persistent Container -  automatski ili manuelno, CRUD implementiran
 
 Persistent Container se lazy inicijalizuje u AppDelegate
 ```
