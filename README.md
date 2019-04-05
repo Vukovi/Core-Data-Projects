@@ -104,6 +104,8 @@ pokretanje Instruments-a radi otkrivanja koliko memorije i vremena trosi ucitava
 Leightweight migracija - automatska migracija - slike LW
 Heavyweight migracija - maualna migracija - slike HW + svi komentari u kodu
 
+Promena baze mora da se uskladi sa bazom koju korisnici vec imaju na telefonu, prilikom skidanja nove aplikacije sa AppStore-a.
+
 automatska Lightweight migracija kada Codegen nije podesen na Manual : KORAK 1
 ![instruments start](https://github.com/Vukovi/Core-Data-Projects/blob/master/05%20Migracija%20baza%20-%20Ski%20School/Lightweight%20migration%20-%20promena%20baze%201.png)
 
